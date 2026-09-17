@@ -1,0 +1,4723 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "primary_grid": "grid_default_wall_s_highdim_5x3.parquet",
+  "stable_cut": 0.3,
+  "sort_features": "features.npy",
+  "recipes": [
+   "balanced",
+   "color",
+   "global",
+   "highdim",
+   "local",
+   "semantic"
+  ]
+ },
+ "primary": {
+  "tag": "grid_default_wall_s_highdim_5x3",
+  "n_tiles": 159960,
+  "grid": [
+   310,
+   516
+  ],
+  "diag_cells": 601.9601315701897,
+  "four_tile_spread": {
+   "n_places": 39991,
+   "median_cells_all": 23.365163577472515,
+   "median_cells_stable": 9.450023479165901,
+   "median_cells_unstable": 153.0568621731812,
+   "median_cells_random": 220.6609533876441,
+   "median_frac_diag_stable": 0.015698753096016312,
+   "median_frac_diag_unstable": 0.25426411841252394,
+   "median_frac_diag_random": 0.3665707109407039,
+   "share_within_5pct_diag_stable": 0.6741772902460718,
+   "share_within_5pct_diag_unstable": 0.08355823126427236,
+   "share_within_5pct_diag_random": 5.001125253181966e-05,
+   "spearman_dispersion_vs_spread": {
+    "rho": 0.5332413842349856,
+    "p": 0.0
+   },
+   "mannwhitney_p": 0.0
+  },
+  "legibility": {
+   "kind": {
+    "observed_same": 0.6917773446069183,
+    "expected_same": 0.017484906204045386,
+    "lift": 0.68629219302651
+   },
+   "region": {
+    "observed_same": 0.7264599146333055,
+    "expected_same": 0.08209032894007447,
+    "lift": 0.7019967280104662
+   },
+   "country": {
+    "observed_same": 0.6039254890408469,
+    "expected_same": 0.038172466503722705,
+    "lift": 0.5882063081315543,
+    "lift_within_region_null": 0.28326360594648736,
+    "lift_beyond_region": 0.3049427021850669
+   },
+   "climate": {
+    "observed_same": 0.5208872620607093,
+    "expected_same": 0.09256446566630405,
+    "lift": 0.47201457314420747,
+    "lift_within_region_null": 0.20873467216056912,
+    "lift_beyond_region": 0.26327990098363835
+   },
+   "documentation": {
+    "observed_same": 0.46267417152957546,
+    "expected_same": 0.27965241916620226,
+    "lift": 0.2540742236567612,
+    "lift_within_region_null": 0.0556712150105945,
+    "lift_beyond_region": 0.1984030086461667
+   },
+   "population": {
+    "observed_same": 0.5148420214732963,
+    "expected_same": 0.2913795228001799,
+    "lift": 0.31534863281985476,
+    "lift_within_region_null": 0.02593239081683415,
+    "lift_beyond_region": 0.28941624200302063
+   },
+   "stability": {
+    "observed_same": 0.8248603859677712,
+    "expected_same": 0.634261499311437,
+    "lift": 0.5211343249275108,
+    "lift_within_region_null": 0.00013333742254376937,
+    "lift_beyond_region": 0.521000987504967
+   },
+   "same_place": {
+    "observed_same": 0.16395795596281973,
+    "expected_same": 2.500578257842781e-05,
+    "lift": 0.163937049554459
+   }
+  },
+  "kinds_summary": {
+   "n_kinds": 64,
+   "median_compactness_ratio": 0.5201841852498936,
+   "n_territories_ratio_lt_0_5": 29,
+   "n_territories_ratio_lt_0_35": 17,
+   "median_contiguity": 0.6934795136553404,
+   "most_compact": [
+    {
+     "kind": 33,
+     "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+     "n_places": 555,
+     "compactness_ratio": 0.1688480076307793,
+     "contiguity": 0.9150237933378654
+    },
+    {
+     "kind": 53,
+     "name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "n_places": 498,
+     "compactness_ratio": 0.1952938001286042,
+     "contiguity": 0.7335257938998369
+    },
+    {
+     "kind": 12,
+     "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "n_places": 362,
+     "compactness_ratio": 0.23134483424908697,
+     "contiguity": 0.7923743500866551
+    },
+    {
+     "kind": 10,
+     "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+     "n_places": 825,
+     "compactness_ratio": 0.2458040153478371,
+     "contiguity": 0.8486049702698583
+    },
+    {
+     "kind": 49,
+     "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "n_places": 235,
+     "compactness_ratio": 0.2582580993845097,
+     "contiguity": 0.7851172822863306
+    },
+    {
+     "kind": 55,
+     "name": "arched doorways (82%), tiled floor (64%), open-air market stalls (45%)",
+     "n_places": 368,
+     "compactness_ratio": 0.26569930560558586,
+     "contiguity": 0.7804214819850442
+    },
+    {
+     "kind": 24,
+     "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+     "n_places": 590,
+     "compactness_ratio": 0.2781923739214016,
+     "contiguity": 0.8265706112935692
+    },
+    {
+     "kind": 27,
+     "name": "brick walls (91%), arched windows (94%), symmetrical facades (82%)",
+     "n_places": 494,
+     "compactness_ratio": 0.28815128209450036,
+     "contiguity": 0.8390688259109311
+    }
+   ],
+   "least_compact": [
+    {
+     "kind": 52,
+     "name": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+     "n_places": 456,
+     "compactness_ratio": 0.9021981136160672,
+     "contiguity": 0.7201222901612007
+    },
+    {
+     "kind": 21,
+     "name": "thatched roofs (60%), mud-brick walls (54%), earthy tones (42%)",
+     "n_places": 578,
+     "compactness_ratio": 0.9085906114347118,
+     "contiguity": 0.7220153340635268
+    },
+    {
+     "kind": 35,
+     "name": "sparse vegetation (41%), dry landscape (30%), none visible (24%)",
+     "n_places": 438,
+     "compactness_ratio": 0.9192309049336179,
+     "contiguity": 0.6735811005473927
+    },
+    {
+     "kind": 50,
+     "name": "corrugated metal roofs (78%), open-air market stalls (65%), colorful signage (33%)",
+     "n_places": 643,
+     "compactness_ratio": 0.9259784467550406,
+     "contiguity": 0.6501409546028969
+    },
+    {
+     "kind": 48,
+     "name": "red-tiled roofs (57%), tree-lined streets (69%), low-rise buildings (57%)",
+     "n_places": 709,
+     "compactness_ratio": 1.0046584239422294,
+     "contiguity": 0.6617192331478046
+    }
+   ],
+   "spearman_wall_vs_geo_spread": {
+    "rho": 0.6051739926739925,
+    "p": 1.1771105271562828e-07
+   }
+  },
+  "kind_adjacency_top": [
+   {
+    "a": 6,
+    "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+    "b": 43,
+    "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+    "shared_edges": 175,
+    "lift": 11.444304116840083
+   },
+   {
+    "a": 12,
+    "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+    "b": 60,
+    "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+    "shared_edges": 692,
+    "lift": 11.088376189130134
+   },
+   {
+    "a": 30,
+    "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+    "b": 63,
+    "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+    "shared_edges": 641,
+    "lift": 9.171214660616297
+   },
+   {
+    "a": 43,
+    "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+    "b": 49,
+    "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+    "shared_edges": 122,
+    "lift": 8.080165698153646
+   },
+   {
+    "a": 47,
+    "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+    "b": 60,
+    "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+    "shared_edges": 612,
+    "lift": 7.923988485899588
+   },
+   {
+    "a": 42,
+    "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+    "b": 63,
+    "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+    "shared_edges": 595,
+    "lift": 7.7057888525741465
+   },
+   {
+    "a": 8,
+    "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+    "b": 57,
+    "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+    "shared_edges": 622,
+    "lift": 7.497152358626126
+   },
+   {
+    "a": 2,
+    "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+    "b": 31,
+    "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+    "shared_edges": 534,
+    "lift": 7.26923695628012
+   },
+   {
+    "a": 22,
+    "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+    "b": 31,
+    "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+    "shared_edges": 588,
+    "lift": 6.666154342465036
+   },
+   {
+    "a": 45,
+    "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+    "b": 53,
+    "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+    "shared_edges": 780,
+    "lift": 6.652232546968136
+   },
+   {
+    "a": 3,
+    "a_name": "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+    "b": 25,
+    "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+    "shared_edges": 707,
+    "lift": 5.333241902039369
+   },
+   {
+    "a": 11,
+    "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+    "b": 25,
+    "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+    "shared_edges": 721,
+    "lift": 5.13145686569248
+   }
+  ],
+  "countries": {
+   "n_countries": 104,
+   "most_compact": [
+    {
+     "country": "Denmark",
+     "n_tiles": 280,
+     "compactness_ratio": 0.2522662347625377,
+     "country_purity": 0.8028571428571429
+    },
+    {
+     "country": "Italy",
+     "n_tiles": 3660,
+     "compactness_ratio": 0.31578812503707804,
+     "country_purity": 0.9153005464480874
+    },
+    {
+     "country": "Belgium",
+     "n_tiles": 968,
+     "compactness_ratio": 0.3274193199281097,
+     "country_purity": 0.7611570247933884
+    },
+    {
+     "country": "Russia",
+     "n_tiles": 5111,
+     "compactness_ratio": 0.36144090845893045,
+     "country_purity": 0.8169047153198983
+    },
+    {
+     "country": "Netherlands",
+     "n_tiles": 1268,
+     "compactness_ratio": 0.3668956879113548,
+     "country_purity": 0.8381703470031545
+    },
+    {
+     "country": "Ireland",
+     "n_tiles": 244,
+     "compactness_ratio": 0.3730116930120413,
+     "country_purity": 0.2180327868852459
+    },
+    {
+     "country": "United Kingdom",
+     "n_tiles": 4348,
+     "compactness_ratio": 0.3810846806820787,
+     "country_purity": 0.8801287948482062
+    },
+    {
+     "country": "Czechia",
+     "n_tiles": 472,
+     "compactness_ratio": 0.38492750467495696,
+     "country_purity": 0.5847457627118644
+    },
+    {
+     "country": "Yemen",
+     "n_tiles": 604,
+     "compactness_ratio": 0.3986497024307546,
+     "country_purity": 0.4165562913907285
+    },
+    {
+     "country": "Jordan",
+     "n_tiles": 348,
+     "compactness_ratio": 0.40263946844304377,
+     "country_purity": 0.30344827586206896
+    }
+   ],
+   "least_compact": [
+    {
+     "country": "Mozambique",
+     "n_tiles": 244,
+     "compactness_ratio": 1.1050939353856524,
+     "country_purity": 0.10163934426229508
+    },
+    {
+     "country": "Thailand",
+     "n_tiles": 984,
+     "compactness_ratio": 1.106621673567592,
+     "country_purity": 0.6117886178861789
+    },
+    {
+     "country": "Burkina Faso",
+     "n_tiles": 260,
+     "compactness_ratio": 1.1337077247994622,
+     "country_purity": 0.31230769230769234
+    },
+    {
+     "country": "Ethiopia",
+     "n_tiles": 352,
+     "compactness_ratio": 1.1432040058247068,
+     "country_purity": 0.4318181818181818
+    },
+    {
+     "country": "Myanmar",
+     "n_tiles": 548,
+     "compactness_ratio": 1.1521565430113287,
+     "country_purity": 0.52992700729927
+    }
+   ],
+   "spearman_compactness_vs_purity": {
+    "rho": -0.3736167012087898,
+    "p": 9.361966177400353e-05
+   }
+  },
+  "geo_territories": {
+   "regions": [
+    {
+     "group": "Northern Europe",
+     "n_tiles": 6612,
+     "compactness_ratio": 0.47408039751142916
+    },
+    {
+     "group": "Southern Europe",
+     "n_tiles": 8136,
+     "compactness_ratio": 0.49206655245579967
+    },
+    {
+     "group": "Northern Africa",
+     "n_tiles": 4508,
+     "compactness_ratio": 0.5771139130663774
+    },
+    {
+     "group": "Western Europe",
+     "n_tiles": 11256,
+     "compactness_ratio": 0.5839974947972069
+    },
+    {
+     "group": "Eastern Europe",
+     "n_tiles": 10763,
+     "compactness_ratio": 0.5854799396740785
+    },
+    {
+     "group": "Western Asia",
+     "n_tiles": 9043,
+     "compactness_ratio": 0.6294315901087371
+    },
+    {
+     "group": "Northern America",
+     "n_tiles": 19848,
+     "compactness_ratio": 0.6306885673286501
+    },
+    {
+     "group": "Eastern Asia",
+     "n_tiles": 14980,
+     "compactness_ratio": 0.7066000704875964
+    },
+    {
+     "group": "Central Asia",
+     "n_tiles": 1592,
+     "compactness_ratio": 0.7701480238904361
+    },
+    {
+     "group": "Australia and New Zealand",
+     "n_tiles": 1300,
+     "compactness_ratio": 0.7741321041932686
+    },
+    {
+     "group": "Caribbean",
+     "n_tiles": 1984,
+     "compactness_ratio": 0.7770856467182623
+    },
+    {
+     "group": "Central America",
+     "n_tiles": 9620,
+     "compactness_ratio": 0.8097835705807617
+    },
+    {
+     "group": "Southern Asia",
+     "n_tiles": 20976,
+     "compactness_ratio": 0.885377944665283
+    },
+    {
+     "group": "Middle Africa",
+     "n_tiles": 1472,
+     "compactness_ratio": 0.888279752075624
+    },
+    {
+     "group": "Eastern Africa",
+     "n_tiles": 4764,
+     "compactness_ratio": 0.9122079052055003
+    },
+    {
+     "group": "South America",
+     "n_tiles": 18983,
+     "compactness_ratio": 0.9427830751318114
+    },
+    {
+     "group": "South-eastern Asia",
+     "n_tiles": 9551,
+     "compactness_ratio": 1.0213941796239494
+    },
+    {
+     "group": "Western Africa",
+     "n_tiles": 3004,
+     "compactness_ratio": 1.0255382032013771
+    },
+    {
+     "group": "Southern Africa",
+     "n_tiles": 1152,
+     "compactness_ratio": 1.0449410383561257
+    }
+   ],
+   "climates": [
+    {
+     "group": "Dfc",
+     "n_tiles": 476,
+     "compactness_ratio": 0.567168609192674
+    },
+    {
+     "group": "Cfb",
+     "n_tiles": 17868,
+     "compactness_ratio": 0.6176378191689071
+    },
+    {
+     "group": "BWk",
+     "n_tiles": 1088,
+     "compactness_ratio": 0.6399869525185122
+    },
+    {
+     "group": "BWh",
+     "n_tiles": 8484,
+     "compactness_ratio": 0.6615861903702017
+    },
+    {
+     "group": "Csa",
+     "n_tiles": 11460,
+     "compactness_ratio": 0.6716777816399625
+    },
+    {
+     "group": "Dfb",
+     "n_tiles": 11955,
+     "compactness_ratio": 0.6721186045558623
+    },
+    {
+     "group": "Dfa",
+     "n_tiles": 10700,
+     "compactness_ratio": 0.842259826898072
+    },
+    {
+     "group": "Cfa",
+     "n_tiles": 24504,
+     "compactness_ratio": 0.8580725842611409
+    },
+    {
+     "group": "BSk",
+     "n_tiles": 5912,
+     "compactness_ratio": 0.877399945730461
+    },
+    {
+     "group": "Csb",
+     "n_tiles": 2884,
+     "compactness_ratio": 0.9036922294915158
+    },
+    {
+     "group": "BSh",
+     "n_tiles": 10975,
+     "compactness_ratio": 0.9217830158461142
+    },
+    {
+     "group": "Cwa",
+     "n_tiles": 9984,
+     "compactness_ratio": 0.9511456212025011
+    },
+    {
+     "group": "Af",
+     "n_tiles": 7359,
+     "compactness_ratio": 1.0211979510864786
+    },
+    {
+     "group": "Am",
+     "n_tiles": 7696,
+     "compactness_ratio": 1.0444592705084486
+    },
+    {
+     "group": "Cwb",
+     "n_tiles": 4200,
+     "compactness_ratio": 1.048353038253514
+    },
+    {
+     "group": "Aw",
+     "n_tiles": 24335,
+     "compactness_ratio": 1.1130139453447796
+    }
+   ]
+  },
+  "repetitiveness": {
+   "homog_mean": 0.4908394677227953,
+   "homog_p10": 0.27746392288245264,
+   "homog_p90": 0.6812019005417824,
+   "spearman_vs_documentation": {
+    "rho": 0.021729872343140912,
+    "p": 1.3876363251062783e-05
+   },
+   "spearman_vs_log_population": {
+    "rho": -0.03683015303875066,
+    "p": 1.7401530639563048e-13
+   },
+   "by_documentation_bin": [
+    {
+     "wiki_visibility_bin": null,
+     "homog": 0.6299304170534015,
+     "len": 1
+    },
+    {
+     "wiki_visibility_bin": "absent",
+     "homog": 0.4937614996262318,
+     "len": 4034
+    },
+    {
+     "wiki_visibility_bin": "medium",
+     "homog": 0.4918969251656379,
+     "len": 11985
+    },
+    {
+     "wiki_visibility_bin": "rich",
+     "homog": 0.49479347133447243,
+     "len": 11984
+    },
+    {
+     "wiki_visibility_bin": "sparse",
+     "homog": 0.4848364430159689,
+     "len": 11987
+    }
+   ],
+   "densest_kinds": [
+    {
+     "kind": 12,
+     "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "homog": 0.607896496967341,
+     "n_tiles": 1448
+    },
+    {
+     "kind": 33,
+     "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+     "homog": 0.6048561625656732,
+     "n_tiles": 2220
+    },
+    {
+     "kind": 49,
+     "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "homog": 0.59697330983264,
+     "n_tiles": 940
+    },
+    {
+     "kind": 43,
+     "name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "homog": 0.5910112362227552,
+     "n_tiles": 644
+    },
+    {
+     "kind": 30,
+     "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "homog": 0.5868954844102943,
+     "n_tiles": 1680
+    }
+   ],
+   "sparsest_kinds": [
+    {
+     "kind": 19,
+     "name": "arched doorways (78%), rhythmic columns (45%), bell tower (40%)",
+     "homog": 0.42588265062414954,
+     "n_tiles": 5108
+    },
+    {
+     "kind": 44,
+     "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+     "homog": 0.406163348008823,
+     "n_tiles": 2788
+    },
+    {
+     "kind": 29,
+     "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+     "homog": 0.4053916587544654,
+     "n_tiles": 4040
+    }
+   ]
+  }
+ },
+ "recipes": {
+  "balanced": {
+   "tag": "s_balanced",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 8.603614556940297,
+    "median_cells_stable": 6.340954922012689,
+    "median_cells_unstable": 146.12522636733235,
+    "median_cells_random": 209.69572824448463,
+    "median_frac_diag_stable": 0.011223350970883545,
+    "median_frac_diag_unstable": 0.25863844190518526,
+    "median_frac_diag_random": 0.371156834282595,
+    "share_within_5pct_diag_stable": 0.9405292893250075,
+    "share_within_5pct_diag_unstable": 0.05688187668673448,
+    "share_within_5pct_diag_random": 5.0124057041176913e-05,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.6865991864894143,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.584413993674643,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.5770158885196032
+    },
+    "region": {
+     "observed_same": 0.6461443274361576,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.6144915175114574
+    },
+    "country": {
+     "observed_same": 0.4940091268557574,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.4739156452460053,
+     "lift_within_region_null": 0.250015335085814,
+     "lift_beyond_region": 0.22390031016019135
+    },
+    "climate": {
+     "observed_same": 0.40957157797871235,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.3493409211688147,
+     "lift_within_region_null": 0.19388298824162323,
+     "lift_beyond_region": 0.15545793292719148
+    },
+    "documentation": {
+     "observed_same": 0.36867942899320005,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.12362621052803224,
+     "lift_within_region_null": 0.050714743502257374,
+     "lift_beyond_region": 0.07291146702577486
+    },
+    "population": {
+     "observed_same": 0.40552322385922157,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.16111157228623643,
+     "lift_within_region_null": 0.022000628050835462,
+     "lift_beyond_region": 0.13911094423540096
+    },
+    "stability": {
+     "observed_same": 0.7816401330397832,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.40387871395212965,
+     "lift_within_region_null": -0.0003581557157259882,
+     "lift_beyond_region": 0.40423686966785566
+    },
+    "same_place": {
+     "observed_same": 0.034371751345002054,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.03434754998413353
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.36939628233170485,
+    "n_territories_ratio_lt_0_5": 49,
+    "n_territories_ratio_lt_0_35": 27,
+    "median_contiguity": 0.5862857515090623,
+    "most_compact": [
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "n_places": 360,
+      "compactness_ratio": 0.16033754031801392,
+      "contiguity": 0.7909026798307476
+     },
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.17301320582776766,
+      "contiguity": 0.6771131535332229
+     },
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.18338441721891788,
+      "contiguity": 0.7179338363319792
+     },
+     {
+      "kind": 10,
+      "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+      "n_places": 824,
+      "compactness_ratio": 0.18703998532197524,
+      "contiguity": 0.8275232151012331
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "n_places": 554,
+      "compactness_ratio": 0.19423478385832374,
+      "contiguity": 0.917351598173516
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.1946977586586749,
+      "contiguity": 0.6910966340933767
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.2098737897210714,
+      "contiguity": 0.825747027953304
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "n_places": 418,
+      "compactness_ratio": 0.21568297872282818,
+      "contiguity": 0.7567486050369476
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "n_places": 696,
+      "compactness_ratio": 0.7548119158889262,
+      "contiguity": 0.265828468792097
+     },
+     {
+      "kind": 0,
+      "name": "distant mountains (55%), open fields (35%), low-rise buildings (72%)",
+      "n_places": 465,
+      "compactness_ratio": 0.8414072358390737,
+      "contiguity": 0.5497375151433571
+     },
+     {
+      "kind": 7,
+      "name": "wooden piers (68%), docked boats (47%), water reflection (45%)",
+      "n_places": 816,
+      "compactness_ratio": 0.8605697529456383,
+      "contiguity": 0.5220469411312043
+     },
+     {
+      "kind": 51,
+      "name": "stone walls (61%), natural landscape (36%), rough texture (28%)",
+      "n_places": 772,
+      "compactness_ratio": 0.8925160917334249,
+      "contiguity": 0.3673237608501663
+     },
+     {
+      "kind": 52,
+      "name": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+      "n_places": 456,
+      "compactness_ratio": 1.0860504270896811,
+      "contiguity": 0.4413106594773953
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.5159340659340659,
+     "p": 1.2807319612258449e-05
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 283,
+     "lift": 18.941481635274144
+    },
+    {
+     "a": 6,
+     "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "b": 43,
+     "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "shared_edges": 264,
+     "lift": 17.370304054579726
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 1888,
+     "lift": 16.123958774972568
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 1315,
+     "lift": 15.90335783545887
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 1080,
+     "lift": 15.527284688264084
+    },
+    {
+     "a": 11,
+     "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "b": 25,
+     "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "shared_edges": 1859,
+     "lift": 13.245537134053121
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 936,
+     "lift": 12.744582748154489
+    },
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 785,
+     "lift": 12.618995393591147
+    },
+    {
+     "a": 9,
+     "a_name": "colorful facades (43%), varied heights (40%), dense urban layout (36%)",
+     "b": 39,
+     "b_name": "varied building heights (65%), flat roofs (84%), low-rise buildings (66%)",
+     "shared_edges": 1375,
+     "lift": 10.631257487890252
+    },
+    {
+     "a": 42,
+     "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 776,
+     "lift": 10.050595226218956
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 865,
+     "lift": 9.878531183512958
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 702,
+     "lift": 9.068108837205287
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "Nigeria",
+      "n_tiles": 628,
+      "compactness_ratio": 0.2826477353359761,
+      "country_purity": 0.3745222929936306
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.29091593361436985,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "South Korea",
+      "n_tiles": 1484,
+      "compactness_ratio": 0.302526008710529,
+      "country_purity": 0.9444743935309973
+     },
+     {
+      "country": "Romania",
+      "n_tiles": 632,
+      "compactness_ratio": 0.3629629589545081,
+      "country_purity": 0.5240506329113924
+     },
+     {
+      "country": "Benin",
+      "n_tiles": 492,
+      "compactness_ratio": 0.3636957807253806,
+      "country_purity": 0.2926829268292683
+     },
+     {
+      "country": "Uganda",
+      "n_tiles": 368,
+      "compactness_ratio": 0.36987458409592316,
+      "country_purity": 0.29456521739130437
+     },
+     {
+      "country": "Denmark",
+      "n_tiles": 280,
+      "compactness_ratio": 0.3731577178613178,
+      "country_purity": 0.8028571428571429
+     },
+     {
+      "country": "Cameroon",
+      "n_tiles": 244,
+      "compactness_ratio": 0.3757042802271726,
+      "country_purity": 0.07377049180327869
+     },
+     {
+      "country": "Ghana",
+      "n_tiles": 348,
+      "compactness_ratio": 0.3757517381750784,
+      "country_purity": 0.1413793103448276
+     },
+     {
+      "country": "Myanmar",
+      "n_tiles": 548,
+      "compactness_ratio": 0.38503648809390434,
+      "country_purity": 0.52992700729927
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Saudi Arabia",
+      "n_tiles": 608,
+      "compactness_ratio": 0.7775537054870244,
+      "country_purity": 0.4506578947368421
+     },
+     {
+      "country": "Tajikistan",
+      "n_tiles": 372,
+      "compactness_ratio": 0.7847682173153496,
+      "country_purity": 0.4344086021505376
+     },
+     {
+      "country": "Kyrgyzstan",
+      "n_tiles": 240,
+      "compactness_ratio": 0.8170210068676788,
+      "country_purity": 0.39666666666666667
+     },
+     {
+      "country": "Qatar",
+      "n_tiles": 208,
+      "compactness_ratio": 0.8250987849578278,
+      "country_purity": 0.21538461538461537
+     },
+     {
+      "country": "United Arab Emirates",
+      "n_tiles": 508,
+      "compactness_ratio": 0.9174114874482767,
+      "country_purity": 0.47795275590551184
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.2402652306240026,
+     "p": 0.014021172211970677
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.41263968777801735
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.47979231995496574
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.48944253953681666
+     },
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.5148547477864849
+     },
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.5174918860757534
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.5195704537156554
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.5249248842768197
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.5301240485737784
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.5543515316797615
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 0.5615468450480515
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.5635452900925851
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.6168250363101881
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.635708698801887
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.6696252658320412
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.6755333732099542
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.6952617982813234
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.707967796415807
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.7972896309056247
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.8731525769314402
+     }
+    ],
+    "climates": [
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 0.5520606868196317
+     },
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.5871068547689391
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.6588156818548568
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 0.6669678559337574
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.6742119603517966
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.68738456216113
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.7201783977207964
+     },
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.7596618228074449
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 0.7656635051997693
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.7736511324402199
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.7741724239527543
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.7947743861851236
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.8259531252199913
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8707417198865489
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 0.893337406024056
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.91312962542797
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.32489233722668603,
+    "homog_p10": 0.12926643483806402,
+    "homog_p90": 0.5329822892672382,
+    "spearman_vs_documentation": {
+     "rho": 0.059340781275794834,
+     "p": 1.833856614811971e-32
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.030968889192692646,
+     "p": 6.119530699752434e-10
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.2899196342623327,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.32521484195529693,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.3267476275723212,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.3356437216603838,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.31219180133189156,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.5106336285222777,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.4849395655724305,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.47187241716777045,
+      "n_tiles": 928
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.4641555717355448,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 43,
+      "name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+      "homog": 0.4537848788066095,
+      "n_tiles": 644
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 5,
+      "name": "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+      "homog": 0.2505573846556217,
+      "n_tiles": 3728
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.22452607628534563,
+      "n_tiles": 4032
+     },
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "homog": 0.2228935039209956,
+      "n_tiles": 2784
+     }
+    ]
+   }
+  },
+  "color": {
+   "tag": "s_color",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 31.312636397501734,
+    "median_cells_stable": 12.268911815325017,
+    "median_cells_unstable": 175.33638155541297,
+    "median_cells_random": 209.56900486408452,
+    "median_frac_diag_stable": 0.021715704499994406,
+    "median_frac_diag_unstable": 0.31034154514010187,
+    "median_frac_diag_random": 0.3709325366820065,
+    "share_within_5pct_diag_stable": 0.632471008028546,
+    "share_within_5pct_diag_unstable": 0.030205522109196595,
+    "share_within_5pct_diag_random": 2.5062028520588457e-05,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.5380887543599239,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.6780506342630833,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.6723194132256373
+    },
+    "region": {
+     "observed_same": 0.7073909943750176,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.6812167715055734
+    },
+    "country": {
+     "observed_same": 0.576822937113891,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.5600180874968764,
+     "lift_within_region_null": 0.2761824054261177,
+     "lift_beyond_region": 0.2838356820707587
+    },
+    "climate": {
+     "observed_same": 0.5065750421638123,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.4562398818151154,
+     "lift_within_region_null": 0.2045514256014677,
+     "lift_beyond_region": 0.25168845621364766
+    },
+    "documentation": {
+     "observed_same": 0.45464310616672843,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.24295752488924052,
+     "lift_within_region_null": 0.05438063446999434,
+     "lift_beyond_region": 0.1885768904192462
+    },
+    "population": {
+     "observed_same": 0.5073822004327876,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.3048485863055979,
+     "lift_within_region_null": 0.024397426804587046,
+     "lift_beyond_region": 0.28045115950101085
+    },
+    "stability": {
+     "observed_same": 0.8603993077911187,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.6188908459634986,
+     "lift_within_region_null": 0.0003346297158057732,
+     "lift_beyond_region": 0.6185562162476929
+    },
+    "same_place": {
+     "observed_same": 0.15439964070464604,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.15437844758040348
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.6576751230439548,
+    "n_territories_ratio_lt_0_5": 12,
+    "n_territories_ratio_lt_0_35": 5,
+    "median_contiguity": 0.6735872858098277,
+    "most_compact": [
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.17316262729400123,
+      "contiguity": 0.7374399301004806
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "n_places": 360,
+      "compactness_ratio": 0.22976094464105964,
+      "contiguity": 0.7774086378737541
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "n_places": 554,
+      "compactness_ratio": 0.2759126993757629,
+      "contiguity": 0.893655452698126
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.2900419849098849,
+      "contiguity": 0.8170809432759719
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.3274537898658753,
+      "contiguity": 0.7323259579060982
+     },
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.36176100977036063,
+      "contiguity": 0.7296769346356123
+     },
+     {
+      "kind": 31,
+      "name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+      "n_places": 389,
+      "compactness_ratio": 0.3888298264120358,
+      "contiguity": 0.6277724204435873
+     },
+     {
+      "kind": 38,
+      "name": "white walls (88%), blue trim (60%), cobblestone street (84%)",
+      "n_places": 693,
+      "compactness_ratio": 0.3913350670459805,
+      "contiguity": 0.7825295723384895
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 3,
+      "name": "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+      "n_places": 570,
+      "compactness_ratio": 0.9118574364381284,
+      "contiguity": 0.5610532089961602
+     },
+     {
+      "kind": 23,
+      "name": "open-air market stalls (60%), narrow streets (64%), utility poles (35%)",
+      "n_places": 900,
+      "compactness_ratio": 0.9182264736406385,
+      "contiguity": 0.7597874720357942
+     },
+     {
+      "kind": 37,
+      "name": "terracotta tiles (52%), bell tower (49%), red-tiled roofs (56%)",
+      "n_places": 573,
+      "compactness_ratio": 0.9396997857398725,
+      "contiguity": 0.6752509821038848
+     },
+     {
+      "kind": 4,
+      "name": "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+      "n_places": 643,
+      "compactness_ratio": 0.9422439599674985,
+      "contiguity": 0.5738808153711109
+     },
+     {
+      "kind": 61,
+      "name": "white walls (76%), red-tiled roofs (69%), symmetrical facade (78%)",
+      "n_places": 547,
+      "compactness_ratio": 0.9932906727021226,
+      "contiguity": 0.6572608396421198
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.05535714285714285,
+     "p": 0.6639528423221062
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 6,
+     "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "b": 43,
+     "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "shared_edges": 204,
+     "lift": 13.422507678538881
+    },
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 717,
+     "lift": 11.52588496459217
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 852,
+     "lift": 10.30392462038856
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 706,
+     "lift": 10.15024350918004
+    },
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 151,
+     "lift": 10.106585607513766
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 899,
+     "lift": 7.677668929396366
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 558,
+     "lift": 7.597732022938253
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 586,
+     "lift": 7.569674898293871
+    },
+    {
+     "a": 42,
+     "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 569,
+     "lift": 7.369573046029106
+    },
+    {
+     "a": 11,
+     "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "b": 25,
+     "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "shared_edges": 992,
+     "lift": 7.068086518010057
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 541,
+     "lift": 6.178364589919665
+    },
+    {
+     "a": 1,
+     "a_name": "colorful facades (58%), cobblestone street (69%), arched doorways (47%)",
+     "b": 16,
+     "b_name": "white walls (68%), red-tiled roofs (66%), terracotta tiles (46%)",
+     "shared_edges": 1031,
+     "lift": 5.536836430524772
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "United Arab Emirates",
+      "n_tiles": 508,
+      "compactness_ratio": 0.5007675356266413,
+      "country_purity": 0.47795275590551184
+     },
+     {
+      "country": "Qatar",
+      "n_tiles": 208,
+      "compactness_ratio": 0.5242714354515138,
+      "country_purity": 0.21538461538461537
+     },
+     {
+      "country": "North Korea",
+      "n_tiles": 236,
+      "compactness_ratio": 0.5305914672921891,
+      "country_purity": 0.940677966101695
+     },
+     {
+      "country": "Benin",
+      "n_tiles": 492,
+      "compactness_ratio": 0.5390020492269461,
+      "country_purity": 0.2926829268292683
+     },
+     {
+      "country": "Kazakhstan",
+      "n_tiles": 384,
+      "compactness_ratio": 0.5567978342567084,
+      "country_purity": 0.44166666666666665
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.5918986794383858,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "Denmark",
+      "n_tiles": 280,
+      "compactness_ratio": 0.5983780202159967,
+      "country_purity": 0.8028571428571429
+     },
+     {
+      "country": "Belarus",
+      "n_tiles": 340,
+      "compactness_ratio": 0.6010391777263294,
+      "country_purity": 0.15411764705882353
+     },
+     {
+      "country": "New Zealand",
+      "n_tiles": 232,
+      "compactness_ratio": 0.6129206946621719,
+      "country_purity": 0.43448275862068964
+     },
+     {
+      "country": "Belgium",
+      "n_tiles": 968,
+      "compactness_ratio": 0.6445108839116568,
+      "country_purity": 0.7611570247933884
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Ghana",
+      "n_tiles": 348,
+      "compactness_ratio": 0.9889343706287067,
+      "country_purity": 0.1413793103448276
+     },
+     {
+      "country": "Afghanistan",
+      "n_tiles": 324,
+      "compactness_ratio": 0.9966271743468047,
+      "country_purity": 0.24814814814814817
+     },
+     {
+      "country": "Madagascar",
+      "n_tiles": 1940,
+      "compactness_ratio": 1.0011280238202693,
+      "country_purity": 0.7612371134020618
+     },
+     {
+      "country": "Kenya",
+      "n_tiles": 328,
+      "compactness_ratio": 1.0085102104338064,
+      "country_purity": 0.08902439024390245
+     },
+     {
+      "country": "Pakistan",
+      "n_tiles": 1940,
+      "compactness_ratio": 1.0175237156866441,
+      "country_purity": 0.5461855670103092
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.178497222067268,
+     "p": 0.06984578550590352
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.6546137734979603
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.6842871212790548
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.7643564475366251
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.7709021409744257
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.7726498851535167
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.7786107624586828
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.799017196936205
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.8097403865830405
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.8296047636143862
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.8417931050745249
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.8459605523756274
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.8468306319662637
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.8470901743833648
+     },
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.8579263868142994
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.8678469333141883
+     },
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.9003758433125338
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.900887267585403
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.9160055944509432
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 1.007218031843071
+     }
+    ],
+    "climates": [
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.6080782262951814
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.8259841058896498
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.8272246542191038
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.8280793582674246
+     },
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 0.8460768849721043
+     },
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.8638457468207184
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.8711908949824423
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.8784595722629303
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8960067115340722
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 0.9192693801170801
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.9202994259004411
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.9207467102390765
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.9362078672038937
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 0.9529047561640448
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.9580001867648593
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 0.9939800898749823
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.4807235936450499,
+    "homog_p10": 0.2778069539694116,
+    "homog_p90": 0.6663877092301846,
+    "spearman_vs_documentation": {
+     "rho": 0.013765526035566694,
+     "p": 0.005964879355843597
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.04254308843482783,
+     "p": 1.8706312856392314e-17
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.4404384992085397,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.4848636497797983,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.48265380438487937,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.4827256559434755,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.475406883347936,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.5901766626790049,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 43,
+      "name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+      "homog": 0.5856622748200924,
+      "n_tiles": 644
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.5839428070571718,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.575284685374314,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.573586240386631,
+      "n_tiles": 928
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 46,
+      "name": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+      "homog": 0.4128648916178829,
+      "n_tiles": 2844
+     },
+     {
+      "kind": 19,
+      "name": "arched doorways (78%), rhythmic columns (45%), bell tower (40%)",
+      "homog": 0.40674304322777155,
+      "n_tiles": 5104
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.3967361496133587,
+      "n_tiles": 4032
+     }
+    ]
+   }
+  },
+  "global": {
+   "tag": "s_global",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 9.371517370948824,
+    "median_cells_stable": 6.795053755488541,
+    "median_cells_unstable": 166.33909141168226,
+    "median_cells_random": 210.0941576418322,
+    "median_frac_diag_stable": 0.012027095934575955,
+    "median_frac_diag_unstable": 0.2944165391572634,
+    "median_frac_diag_random": 0.3718620455667859,
+    "share_within_5pct_diag_stable": 0.9213665047741765,
+    "share_within_5pct_diag_unstable": 0.05584388623624663,
+    "share_within_5pct_diag_random": 0.0,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.6925583897393381,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.5943982587994384,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.5871778897619886
+    },
+    "region": {
+     "observed_same": 0.6362794086701989,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.6037441700525825
+    },
+    "country": {
+     "observed_same": 0.4843640566455507,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.4638875581649819,
+     "lift_within_region_null": 0.24593226114048297,
+     "lift_beyond_region": 0.21795529702449892
+    },
+    "climate": {
+     "observed_same": 0.40333101968900853,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.34246375239318183,
+     "lift_within_region_null": 0.19098052536530424,
+     "lift_beyond_region": 0.1514832270278776
+    },
+    "documentation": {
+     "observed_same": 0.3679935675563624,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.12267412530531326,
+     "lift_within_region_null": 0.052186680693870134,
+     "lift_beyond_region": 0.07048744461144313
+    },
+    "population": {
+     "observed_same": 0.40444910662969025,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.15959584526370862,
+     "lift_within_region_null": 0.02151399990149761,
+     "lift_beyond_region": 0.13808184536221102
+    },
+    "stability": {
+     "observed_same": 0.7806131262150559,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.40107499073293595,
+     "lift_within_region_null": 0.0011611707504548367,
+     "lift_beyond_region": 0.3999138199824811
+    },
+    "same_place": {
+     "observed_same": 0.03214185885094582,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.03211760160269722
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.4380033619452096,
+    "n_territories_ratio_lt_0_5": 44,
+    "n_territories_ratio_lt_0_35": 16,
+    "median_contiguity": 0.591533325081168,
+    "most_compact": [
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "n_places": 360,
+      "compactness_ratio": 0.16400897089680236,
+      "contiguity": 0.7896756191140565
+     },
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.16417360617964932,
+      "contiguity": 0.7035161336998987
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "n_places": 554,
+      "compactness_ratio": 0.16887886991773193,
+      "contiguity": 0.9212356092556708
+     },
+     {
+      "kind": 10,
+      "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+      "n_places": 824,
+      "compactness_ratio": 0.20073906100973524,
+      "contiguity": 0.8375963961212491
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.20088881356143592,
+      "contiguity": 0.706199460916442
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.2050451844324155,
+      "contiguity": 0.8262589543461991
+     },
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.2258576230429692,
+      "contiguity": 0.7011303692539563
+     },
+     {
+      "kind": 47,
+      "name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+      "n_places": 448,
+      "compactness_ratio": 0.2675533628122429,
+      "contiguity": 0.6807973048848961
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "n_places": 696,
+      "compactness_ratio": 0.7804114861284028,
+      "contiguity": 0.2795042213041135
+     },
+     {
+      "kind": 3,
+      "name": "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+      "n_places": 570,
+      "compactness_ratio": 0.8287784487305621,
+      "contiguity": 0.4726034918194795
+     },
+     {
+      "kind": 52,
+      "name": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+      "n_places": 456,
+      "compactness_ratio": 0.8749180275777665,
+      "contiguity": 0.4067703316361635
+     },
+     {
+      "kind": 0,
+      "name": "distant mountains (55%), open fields (35%), low-rise buildings (72%)",
+      "n_places": 465,
+      "compactness_ratio": 0.9375352155198078,
+      "contiguity": 0.5194560387774337
+     },
+     {
+      "kind": 51,
+      "name": "stone walls (61%), natural landscape (36%), rough texture (28%)",
+      "n_places": 772,
+      "compactness_ratio": 0.9459426582427698,
+      "contiguity": 0.4461801318037589
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.3415750915750915,
+     "p": 0.005738589595019058
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 6,
+     "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "b": 43,
+     "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "shared_edges": 442,
+     "lift": 29.082099970167576
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 1603,
+     "lift": 19.38637460854796
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 1772,
+     "lift": 15.133291816340778
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 994,
+     "lift": 14.290852759383796
+    },
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 194,
+     "lift": 12.984619919587223
+    },
+    {
+     "a": 11,
+     "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "b": 25,
+     "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "shared_edges": 1671,
+     "lift": 11.906020737494764
+    },
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 736,
+     "lift": 11.831312878577178
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 868,
+     "lift": 11.81869425790395
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 925,
+     "lift": 10.563747219363568
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 775,
+     "lift": 10.011088816002987
+    },
+    {
+     "a": 9,
+     "a_name": "colorful facades (43%), varied heights (40%), dense urban layout (36%)",
+     "b": 39,
+     "b_name": "varied building heights (65%), flat roofs (84%), low-rise buildings (66%)",
+     "shared_edges": 1257,
+     "lift": 9.71890229983858
+    },
+    {
+     "a": 1,
+     "a_name": "colorful facades (58%), cobblestone street (69%), arched doorways (47%)",
+     "b": 16,
+     "b_name": "white walls (68%), red-tiled roofs (66%), terracotta tiles (46%)",
+     "shared_edges": 1676,
+     "lift": 9.000715671735712
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "North Korea",
+      "n_tiles": 236,
+      "compactness_ratio": 0.27178448871157374,
+      "country_purity": 0.940677966101695
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.29325699954467493,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "Nigeria",
+      "n_tiles": 628,
+      "compactness_ratio": 0.32154768294916486,
+      "country_purity": 0.3745222929936306
+     },
+     {
+      "country": "South Korea",
+      "n_tiles": 1484,
+      "compactness_ratio": 0.3878119592019651,
+      "country_purity": 0.9444743935309973
+     },
+     {
+      "country": "Benin",
+      "n_tiles": 492,
+      "compactness_ratio": 0.39525516008536177,
+      "country_purity": 0.2926829268292683
+     },
+     {
+      "country": "Denmark",
+      "n_tiles": 280,
+      "compactness_ratio": 0.4073610115667154,
+      "country_purity": 0.8028571428571429
+     },
+     {
+      "country": "Cameroon",
+      "n_tiles": 244,
+      "compactness_ratio": 0.4103931611053737,
+      "country_purity": 0.07377049180327869
+     },
+     {
+      "country": "Norway",
+      "n_tiles": 396,
+      "compactness_ratio": 0.4174833424863157,
+      "country_purity": 0.6575757575757575
+     },
+     {
+      "country": "Ghana",
+      "n_tiles": 348,
+      "compactness_ratio": 0.4206600088461006,
+      "country_purity": 0.1413793103448276
+     },
+     {
+      "country": "Uzbekistan",
+      "n_tiles": 500,
+      "compactness_ratio": 0.42214514312807233,
+      "country_purity": 0.6056
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Qatar",
+      "n_tiles": 208,
+      "compactness_ratio": 0.8106600757377177,
+      "country_purity": 0.21538461538461537
+     },
+     {
+      "country": "Tajikistan",
+      "n_tiles": 372,
+      "compactness_ratio": 0.8362944710102231,
+      "country_purity": 0.4344086021505376
+     },
+     {
+      "country": "United Arab Emirates",
+      "n_tiles": 508,
+      "compactness_ratio": 0.8828268055126569,
+      "country_purity": 0.47795275590551184
+     },
+     {
+      "country": "Israel",
+      "n_tiles": 532,
+      "compactness_ratio": 0.9004020213114406,
+      "country_purity": 0.4421052631578947
+     },
+     {
+      "country": "Kyrgyzstan",
+      "n_tiles": 240,
+      "compactness_ratio": 0.9858593735787206,
+      "country_purity": 0.39666666666666667
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.1727626500663621,
+     "p": 0.07947186072019766
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.4758819540096698
+     },
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.4878493436895179
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.49427430703378533
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.4983831867014617
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.5387523709816917
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.5400035514516434
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.5823807547446275
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.5852318897006004
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.5947204973653787
+     },
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.6211129377872651
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.6230890405443126
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 0.6265089058504612
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.7086497268442994
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.7206184952818366
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.7392764385974373
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.740670915530436
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.7681947048628741
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.7960299007169912
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.9193597853508436
+     }
+    ],
+    "climates": [
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 0.567491933062838
+     },
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.5984543595163386
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 0.6509943530965714
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.6851691306767266
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.7082360781376575
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.7163738095503229
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.7578585711937803
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.766465797450621
+     },
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.7725443147594875
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 0.7778929209372745
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.7957807588001337
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.7979430245402392
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.8073672584342746
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 0.8743848380394388
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8854474550640865
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.9547177338111772
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.3258859252070379,
+    "homog_p10": 0.13309795814566314,
+    "homog_p90": 0.5288905117660762,
+    "spearman_vs_documentation": {
+     "rho": 0.048201333180140686,
+     "p": 5.772530089108082e-22
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.027602899532321278,
+     "p": 3.4966797362057294e-08
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.2424037088348996,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.32772233366692777,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.32766723945073584,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.3344157565050049,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.31497319186769107,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.48762225417121147,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.4788112441249666,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.47166820267293985,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.45406502820244676,
+      "n_tiles": 928
+     },
+     {
+      "kind": 62,
+      "name": "half-timbered walls (74%), steep tiled roofs (65%), arched windows (84%)",
+      "homog": 0.4444934653693316,
+      "n_tiles": 2180
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 5,
+      "name": "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+      "homog": 0.25277715942985807,
+      "n_tiles": 3728
+     },
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "homog": 0.23022226645079663,
+      "n_tiles": 2784
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.21967639131729494,
+      "n_tiles": 4032
+     }
+    ]
+   }
+  },
+  "highdim": {
+   "tag": "s_highdim",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 30.48323699075881,
+    "median_cells_stable": 11.410120858257828,
+    "median_cells_unstable": 160.9391812526402,
+    "median_cells_random": 209.70203486433556,
+    "median_frac_diag_stable": 0.02019566336418285,
+    "median_frac_diag_unstable": 0.2848588167524285,
+    "median_frac_diag_random": 0.371167996861244,
+    "share_within_5pct_diag_stable": 0.6349159150229623,
+    "share_within_5pct_diag_unstable": 0.03819804857795308,
+    "share_within_5pct_diag_random": 2.5062028520588457e-05,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.5328741084385449,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.6797811564662172,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.6740807415315683
+    },
+    "region": {
+     "observed_same": 0.7139676068856567,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.68838166981149
+    },
+    "country": {
+     "observed_same": 0.5914208812158254,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.5751957328086956,
+     "lift_within_region_null": 0.2779757709177811,
+     "lift_beyond_region": 0.29721996189091454
+    },
+    "climate": {
+     "observed_same": 0.51121384669018,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.46135189906806445,
+     "lift_within_region_null": 0.20499790510426416,
+     "lift_beyond_region": 0.2563539939638003
+    },
+    "documentation": {
+     "observed_same": 0.4579521148790623,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.24755095750937375,
+     "lift_within_region_null": 0.054390226477759596,
+     "lift_beyond_region": 0.19316073103161416
+    },
+    "population": {
+     "observed_same": 0.510105181830459,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.3086910872662166,
+     "lift_within_region_null": 0.025561256968668324,
+     "lift_beyond_region": 0.28312983029754824
+    },
+    "stability": {
+     "observed_same": 0.8384741253953348,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.5590352135684208,
+     "lift_within_region_null": -3.577041590426665e-05,
+     "lift_beyond_region": 0.5590709839843251
+    },
+    "same_place": {
+     "observed_same": 0.1587934711260329,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.15877238812354347
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.6167130722594479,
+    "n_territories_ratio_lt_0_5": 17,
+    "n_territories_ratio_lt_0_35": 7,
+    "median_contiguity": 0.6783447733365358,
+    "most_compact": [
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.25927611258690014,
+      "contiguity": 0.7516270622067505
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.2933166566477009,
+      "contiguity": 0.8104436425387391
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "n_places": 360,
+      "compactness_ratio": 0.3072628510063316,
+      "contiguity": 0.7690972222222222
+     },
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.3091919368643767,
+      "contiguity": 0.7340856481481481
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.3203311331642199,
+      "contiguity": 0.7437348423605498
+     },
+     {
+      "kind": 25,
+      "name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+      "n_places": 579,
+      "compactness_ratio": 0.32971509050960696,
+      "contiguity": 0.7216630196936543
+     },
+     {
+      "kind": 10,
+      "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+      "n_places": 824,
+      "compactness_ratio": 0.34501870481154356,
+      "contiguity": 0.850121359223301
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "n_places": 554,
+      "compactness_ratio": 0.3873237652851066,
+      "contiguity": 0.8981818181818182
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 46,
+      "name": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+      "n_places": 711,
+      "compactness_ratio": 0.885663305209267,
+      "contiguity": 0.5145323234102519
+     },
+     {
+      "kind": 56,
+      "name": "palm trees (71%), distant mountains (52%), low-rise buildings (79%)",
+      "n_places": 567,
+      "compactness_ratio": 0.8994252533133626,
+      "contiguity": 0.6397529230090447
+     },
+     {
+      "kind": 5,
+      "name": "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+      "n_places": 932,
+      "compactness_ratio": 0.9003658337056427,
+      "contiguity": 0.6488518866657714
+     },
+     {
+      "kind": 3,
+      "name": "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+      "n_places": 570,
+      "compactness_ratio": 1.0048240138984572,
+      "contiguity": 0.5893857817822218
+     },
+     {
+      "kind": 4,
+      "name": "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+      "n_places": 643,
+      "compactness_ratio": 1.045307263116617,
+      "contiguity": 0.5669137729223566
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.4532051282051282,
+     "p": 0.0001695044244339561
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 699,
+     "lift": 11.236532203974791
+    },
+    {
+     "a": 6,
+     "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "b": 43,
+     "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "shared_edges": 161,
+     "lift": 10.59325360904294
+    },
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 156,
+     "lift": 10.441240760080447
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 729,
+     "lift": 8.816386206881761
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 595,
+     "lift": 8.554383693997343
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 629,
+     "lift": 8.125128858407585
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 572,
+     "lift": 7.7883561238721875
+    },
+    {
+     "a": 42,
+     "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 583,
+     "lift": 7.550898217636149
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 613,
+     "lift": 7.000623832940398
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 776,
+     "lift": 6.627220343950589
+    },
+    {
+     "a": 11,
+     "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "b": 25,
+     "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "shared_edges": 767,
+     "lift": 5.46494189446947
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 227,
+     "lift": 5.460107973595755
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "Denmark",
+      "n_tiles": 280,
+      "compactness_ratio": 0.3451944347936099,
+      "country_purity": 0.8028571428571429
+     },
+     {
+      "country": "Italy",
+      "n_tiles": 3652,
+      "compactness_ratio": 0.3499743839430374,
+      "country_purity": 0.9151150054764513
+     },
+     {
+      "country": "Czechia",
+      "n_tiles": 472,
+      "compactness_ratio": 0.4236213728300237,
+      "country_purity": 0.5847457627118644
+     },
+     {
+      "country": "Lithuania",
+      "n_tiles": 204,
+      "compactness_ratio": 0.43921941417873445,
+      "country_purity": 0.1823529411764706
+     },
+     {
+      "country": "Belgium",
+      "n_tiles": 968,
+      "compactness_ratio": 0.459215424581409,
+      "country_purity": 0.7611570247933884
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.46492320221391803,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "Netherlands",
+      "n_tiles": 1256,
+      "compactness_ratio": 0.46966873297186384,
+      "country_purity": 0.8369426751592357
+     },
+     {
+      "country": "Finland",
+      "n_tiles": 376,
+      "compactness_ratio": 0.5034087081727133,
+      "country_purity": 0.33085106382978724
+     },
+     {
+      "country": "Poland",
+      "n_tiles": 1544,
+      "compactness_ratio": 0.5110632948997605,
+      "country_purity": 0.716062176165803
+     },
+     {
+      "country": "Belarus",
+      "n_tiles": 340,
+      "compactness_ratio": 0.51138488672282,
+      "country_purity": 0.15411764705882353
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Ethiopia",
+      "n_tiles": 352,
+      "compactness_ratio": 0.9880478182414011,
+      "country_purity": 0.4318181818181818
+     },
+     {
+      "country": "Nicaragua",
+      "n_tiles": 412,
+      "compactness_ratio": 1.04743406019358,
+      "country_purity": 0.1262135922330097
+     },
+     {
+      "country": "Madagascar",
+      "n_tiles": 1940,
+      "compactness_ratio": 1.0544900929058987,
+      "country_purity": 0.7612371134020618
+     },
+     {
+      "country": "Angola",
+      "n_tiles": 404,
+      "compactness_ratio": 1.0883785970904567,
+      "country_purity": 0.11683168316831684
+     },
+     {
+      "country": "Kenya",
+      "n_tiles": 328,
+      "compactness_ratio": 1.0977821875416447,
+      "country_purity": 0.08902439024390245
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.32841227038490445,
+     "p": 0.0006650416790675605
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.579782296111153
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.6131796707365826
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.6576348189381955
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.6883426831848318
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.7332168020537028
+     },
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.7682037385886746
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.7985600703303385
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.8279979422748378
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.8603985219393653
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.9042315814153747
+     },
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.9199427899350288
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.9350919244860281
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.9455292147032693
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.9682063966139632
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.9720191821014034
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.9762873645870891
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.9838590620361973
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.9919667092500509
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 1.0140998720567025
+     }
+    ],
+    "climates": [
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.6930397331494781
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.7496172208331123
+     },
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.7673310383645674
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.8138736682016128
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8245133380903834
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.86851274429463
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.9254629466675284
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.9497012595075813
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.9582601632880979
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.9591601563837796
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.9594855802190119
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.992678630644437
+     },
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 1.03409064303501
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 1.0432289787796594
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 1.0449016935605273
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 1.0868190511131468
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.48669007603124065,
+    "homog_p10": 0.26906207855790854,
+    "homog_p90": 0.6801555175334215,
+    "spearman_vs_documentation": {
+     "rho": 0.01980768792613694,
+     "p": 7.5945612603039e-05
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.03690848829838196,
+     "p": 1.6465826108035792e-13
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.5079584359191358,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.49099052880489485,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.48828860441528327,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.48981888564011217,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.48051616885149556,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.5995579891150516,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.5958315127765268,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.5803271422826958,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.5799922264295485,
+      "n_tiles": 928
+     },
+     {
+      "kind": 52,
+      "name": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+      "homog": 0.5781266111769104,
+      "n_tiles": 1824
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "homog": 0.4133110786085952,
+      "n_tiles": 2784
+     },
+     {
+      "kind": 46,
+      "name": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+      "homog": 0.4127459060605167,
+      "n_tiles": 2844
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.4059332100223588,
+      "n_tiles": 4032
+     }
+    ]
+   }
+  },
+  "local": {
+   "tag": "s_local",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 6.166666666666667,
+    "median_cells_stable": 4.699003735182484,
+    "median_cells_unstable": 139.6296698649241,
+    "median_cells_random": 209.95220703255836,
+    "median_frac_diag_stable": 0.008317133425813085,
+    "median_frac_diag_unstable": 0.24714144953189887,
+    "median_frac_diag_random": 0.37161079610546577,
+    "share_within_5pct_diag_stable": 0.9733703373310867,
+    "share_within_5pct_diag_unstable": 0.01982561760431804,
+    "share_within_5pct_diag_random": 2.5062028520588457e-05,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.6931659906505246,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.5963768958012067,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.5891917497125087
+    },
+    "region": {
+     "observed_same": 0.6598440331531622,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.6294166781659025
+    },
+    "country": {
+     "observed_same": 0.5071121007785779,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.487538953387337,
+     "lift_within_region_null": 0.25683221381923776,
+     "lift_beyond_region": 0.23070673956809923
+    },
+    "climate": {
+     "observed_same": 0.4236921366452995,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.3649019432197688,
+     "lift_within_region_null": 0.19916667513285685,
+     "lift_beyond_region": 0.16573526808691197
+    },
+    "documentation": {
+     "observed_same": 0.38056830209776155,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.1401298653330389,
+     "lift_within_region_null": 0.05232096880258362,
+     "lift_beyond_region": 0.08780889653045527
+    },
+    "population": {
+     "observed_same": 0.4180577322307405,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.17879948616608568,
+     "lift_within_region_null": 0.022372911880930026,
+     "lift_beyond_region": 0.15642657428515566
+    },
+    "stability": {
+     "observed_same": 0.7948216243039438,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.4398641156370088,
+     "lift_within_region_null": 0.0001974444818390716,
+     "lift_beyond_region": 0.4396666711551697
+    },
+    "same_place": {
+     "observed_same": 0.051947073030549525,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.05192331215669356
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.3932405522813707,
+    "n_territories_ratio_lt_0_5": 47,
+    "n_territories_ratio_lt_0_35": 25,
+    "median_contiguity": 0.5896657789069113,
+    "most_compact": [
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.17572474126939294,
+      "contiguity": 0.6900647948164147
+     },
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.17617597939543658,
+      "contiguity": 0.6751207729468599
+     },
+     {
+      "kind": 10,
+      "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+      "n_places": 824,
+      "compactness_ratio": 0.1784105331497068,
+      "contiguity": 0.8329401019864525
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.19970873082316498,
+      "contiguity": 0.7941082292667307
+     },
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.20933330968503905,
+      "contiguity": 0.718328254244667
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "n_places": 360,
+      "compactness_ratio": 0.214881540177124,
+      "contiguity": 0.7867065236504308
+     },
+     {
+      "kind": 6,
+      "name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+      "n_places": 236,
+      "compactness_ratio": 0.21831564458882605,
+      "contiguity": 0.6389403973509934
+     },
+     {
+      "kind": 43,
+      "name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+      "n_places": 161,
+      "compactness_ratio": 0.23314209100921668,
+      "contiguity": 0.5887378640776699
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 0,
+      "name": "distant mountains (55%), open fields (35%), low-rise buildings (72%)",
+      "n_places": 465,
+      "compactness_ratio": 0.6658476661431199,
+      "contiguity": 0.5739861657398616
+     },
+     {
+      "kind": 51,
+      "name": "stone walls (61%), natural landscape (36%), rough texture (28%)",
+      "n_places": 772,
+      "compactness_ratio": 0.7381673293876232,
+      "contiguity": 0.3633709141049558
+     },
+     {
+      "kind": 44,
+      "name": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+      "n_places": 696,
+      "compactness_ratio": 0.7489203497498363,
+      "contiguity": 0.32659297204996857
+     },
+     {
+      "kind": 41,
+      "name": "no architectural content visible (63%), none visible (36%), dense forest canopy (1%)",
+      "n_places": 1082,
+      "compactness_ratio": 0.8919128031169209,
+      "contiguity": 0.6333507458355099
+     },
+     {
+      "kind": 52,
+      "name": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+      "n_places": 456,
+      "compactness_ratio": 0.9620829826533471,
+      "contiguity": 0.5278316255884796
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.5353937728937729,
+     "p": 5.155068717781414e-06
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 292,
+     "lift": 19.54386090989417
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 1814,
+     "lift": 15.491981577224703
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 1270,
+     "lift": 15.359136464663699
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 1030,
+     "lift": 14.808428915659265
+    },
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 764,
+     "lift": 12.281417172870874
+    },
+    {
+     "a": 42,
+     "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 821,
+     "lift": 10.63342613495588
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 890,
+     "lift": 10.164037865117379
+    },
+    {
+     "a": 11,
+     "a_name": "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "b": 25,
+     "b_name": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "shared_edges": 1352,
+     "lift": 9.633117915674998
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 702,
+     "lift": 9.558437061115866
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 732,
+     "lift": 9.455634855889272
+    },
+    {
+     "a": 9,
+     "a_name": "colorful facades (43%), varied heights (40%), dense urban layout (36%)",
+     "b": 39,
+     "b_name": "varied building heights (65%), flat roofs (84%), low-rise buildings (66%)",
+     "shared_edges": 1075,
+     "lift": 8.311710399623289
+    },
+    {
+     "a": 55,
+     "a_name": "arched doorways (82%), tiled floor (64%), open-air market stalls (45%)",
+     "b": 59,
+     "b_name": "minaret (66%), arched doorways (82%), domed roof (36%)",
+     "shared_edges": 706,
+     "lift": 8.074428814065925
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "Nigeria",
+      "n_tiles": 628,
+      "compactness_ratio": 0.29068189725868687,
+      "country_purity": 0.3745222929936306
+     },
+     {
+      "country": "North Korea",
+      "n_tiles": 236,
+      "compactness_ratio": 0.30598523166975106,
+      "country_purity": 0.940677966101695
+     },
+     {
+      "country": "Denmark",
+      "n_tiles": 280,
+      "compactness_ratio": 0.3082873941996484,
+      "country_purity": 0.8028571428571429
+     },
+     {
+      "country": "South Korea",
+      "n_tiles": 1484,
+      "compactness_ratio": 0.3288945894448054,
+      "country_purity": 0.9444743935309973
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.33949839853492875,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "Norway",
+      "n_tiles": 396,
+      "compactness_ratio": 0.3448185478529925,
+      "country_purity": 0.6575757575757575
+     },
+     {
+      "country": "Senegal",
+      "n_tiles": 388,
+      "compactness_ratio": 0.3617710807577138,
+      "country_purity": 0.31237113402061856
+     },
+     {
+      "country": "Benin",
+      "n_tiles": 492,
+      "compactness_ratio": 0.3731420947932403,
+      "country_purity": 0.2926829268292683
+     },
+     {
+      "country": "Ghana",
+      "n_tiles": 348,
+      "compactness_ratio": 0.37450451139886715,
+      "country_purity": 0.1413793103448276
+     },
+     {
+      "country": "Syria",
+      "n_tiles": 924,
+      "compactness_ratio": 0.37917552142693145,
+      "country_purity": 0.46320346320346323
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Costa Rica",
+      "n_tiles": 360,
+      "compactness_ratio": 0.7205307257963334,
+      "country_purity": 0.1111111111111111
+     },
+     {
+      "country": "Turkey",
+      "n_tiles": 2700,
+      "compactness_ratio": 0.7323714757816938,
+      "country_purity": 0.8253333333333334
+     },
+     {
+      "country": "United Arab Emirates",
+      "n_tiles": 508,
+      "compactness_ratio": 0.7912183593821669,
+      "country_purity": 0.47795275590551184
+     },
+     {
+      "country": "Kazakhstan",
+      "n_tiles": 384,
+      "compactness_ratio": 0.8637438912205123,
+      "country_purity": 0.44166666666666665
+     },
+     {
+      "country": "Azerbaijan",
+      "n_tiles": 272,
+      "compactness_ratio": 0.8961430170324258,
+      "country_purity": 0.2514705882352941
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.2370325323611663,
+     "p": 0.015406331602188834
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.4016330592887946
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.49207437070201526
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.510977724807158
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.5317636566607473
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.547931004544278
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.5561440287142964
+     },
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.5668247387229267
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.5686938481901067
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 0.5866444943407185
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.5924943803734191
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.5986163355159879
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.6036087149144603
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.6046509642153467
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.6157047833757066
+     },
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.6290702815967494
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.6622953158195134
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.6892122838938555
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.7580837021621968
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.8620260391029326
+     }
+    ],
+    "climates": [
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 0.6205729254968649
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.6454332994670716
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.6904435828058327
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 0.7009091798226984
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.7143285328269763
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.7207871201223381
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.7267852395676402
+     },
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.7337173028875447
+     },
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.8040107007865498
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 0.816102609829144
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.8175043694059767
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 0.8328778588358875
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.8346277357693973
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8760732893565627
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.8937373368594946
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.9532010900504099
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.33886407184381356,
+    "homog_p10": 0.14194507852662355,
+    "homog_p90": 0.5471838547848165,
+    "spearman_vs_documentation": {
+     "rho": 0.048097008325450157,
+     "p": 7.071780089435827e-22
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.027806996219875393,
+     "p": 2.7706673307717934e-08
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.3325678874680307,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.3398376478258512,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.34007167900413277,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.3476049932318755,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.32859897933168175,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.5004043498181304,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.4928594683396821,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.47545994010768694,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.46860104948238335,
+      "n_tiles": 928
+     },
+     {
+      "kind": 6,
+      "name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+      "homog": 0.4579851418298273,
+      "n_tiles": 944
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 5,
+      "name": "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+      "homog": 0.26391832461371445,
+      "n_tiles": 3728
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.2607669076103472,
+      "n_tiles": 4032
+     },
+     {
+      "kind": 1,
+      "name": "colorful facades (58%), cobblestone street (69%), arched doorways (47%)",
+      "homog": 0.2472617918674603,
+      "n_tiles": 3520
+     }
+    ]
+   }
+  },
+  "semantic": {
+   "tag": "s_semantic",
+   "n_tiles": 159600,
+   "grid": [
+    400,
+    399
+   ],
+   "diag_cells": 564.978760662735,
+   "four_tile_spread": {
+    "n_places": 39901,
+    "median_cells_all": 19.34992168283099,
+    "median_cells_stable": 6.178263829143447,
+    "median_cells_unstable": 150.96228957340028,
+    "median_cells_random": 209.87091579512824,
+    "median_frac_diag_stable": 0.010935391309039972,
+    "median_frac_diag_unstable": 0.26719993756281657,
+    "median_frac_diag_random": 0.3714669124002894,
+    "share_within_5pct_diag_stable": 0.6921729936894968,
+    "share_within_5pct_diag_unstable": 0.06560099647083246,
+    "share_within_5pct_diag_random": 2.5062028520588457e-05,
+    "spearman_dispersion_vs_spread": {
+     "rho": 0.4996987369423991,
+     "p": 0.0
+    },
+    "mannwhitney_p": 0.0
+   },
+   "legibility": {
+    "kind": {
+     "observed_same": 0.7289769818562127,
+     "expected_same": 0.017490267256487082,
+     "lift": 0.7241523324283052
+    },
+    "region": {
+     "observed_same": 0.7618317781665258,
+     "expected_same": 0.08210664969127078,
+     "lift": 0.7405273480264701
+    },
+    "country": {
+     "observed_same": 0.6447404373729982,
+     "expected_same": 0.038194410132474044,
+     "lift": 0.6306326700846755,
+     "lift_within_region_null": 0.29632217419229157,
+     "lift_beyond_region": 0.33431049589238393
+    },
+    "climate": {
+     "observed_same": 0.5482269213978599,
+     "expected_same": 0.09256868730409985,
+     "lift": 0.5021407435677294,
+     "lift_within_region_null": 0.2161100531017716,
+     "lift_beyond_region": 0.28603069046595786
+    },
+    "documentation": {
+     "observed_same": 0.48755445417055343,
+     "expected_same": 0.2796218022595326,
+     "lift": 0.28864373264379845,
+     "lift_within_region_null": 0.05741694092804857,
+     "lift_beyond_region": 0.2312267917157499
+    },
+    "population": {
+     "observed_same": 0.5445617319041084,
+     "expected_same": 0.2913517978059183,
+     "lift": 0.3573140146467796,
+     "lift_within_region_null": 0.027841938623033257,
+     "lift_beyond_region": 0.32947207602374634
+    },
+    "stability": {
+     "observed_same": 0.8432699646043825,
+     "expected_same": 0.6336989265927977,
+     "lift": 0.5721278293351137,
+     "lift_within_region_null": -6.618553686372076e-06,
+     "lift_beyond_region": 0.5721344478888001
+    },
+    "same_place": {
+     "observed_same": 0.19473556929783511,
+     "expected_same": 2.5062185539035553e-05,
+     "lift": 0.194715387105455
+    }
+   },
+   "kinds_summary": {
+    "n_kinds": 64,
+    "median_compactness_ratio": 0.5607630148391498,
+    "n_territories_ratio_lt_0_5": 25,
+    "n_territories_ratio_lt_0_35": 10,
+    "median_contiguity": 0.7463152567206985,
+    "most_compact": [
+     {
+      "kind": 63,
+      "name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+      "n_places": 416,
+      "compactness_ratio": 0.19548245397956468,
+      "contiguity": 0.7893462469733656
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "n_places": 232,
+      "compactness_ratio": 0.2326632327000972,
+      "contiguity": 0.7844827586206896
+     },
+     {
+      "kind": 24,
+      "name": "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+      "n_places": 589,
+      "compactness_ratio": 0.24826551906387473,
+      "contiguity": 0.8297962648556876
+     },
+     {
+      "kind": 10,
+      "name": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+      "n_places": 824,
+      "compactness_ratio": 0.29818688994489684,
+      "contiguity": 0.8668082524271845
+     },
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "n_places": 418,
+      "compactness_ratio": 0.30810643139977023,
+      "contiguity": 0.8472053462940462
+     },
+     {
+      "kind": 60,
+      "name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+      "n_places": 432,
+      "compactness_ratio": 0.3149351539295015,
+      "contiguity": 0.7693865740740741
+     },
+     {
+      "kind": 17,
+      "name": "golden domes (45%), arched windows (80%), symmetrical facade (64%)",
+      "n_places": 697,
+      "compactness_ratio": 0.3166514566538966,
+      "contiguity": 0.8208393113342898
+     },
+     {
+      "kind": 34,
+      "name": "balconies with wrought iron railings (73%), arched doorways (74%), rhythmic windows (47%)",
+      "n_places": 460,
+      "compactness_ratio": 0.32790567704435575,
+      "contiguity": 0.7152173913043478
+     }
+    ],
+    "least_compact": [
+     {
+      "kind": 5,
+      "name": "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+      "n_places": 932,
+      "compactness_ratio": 0.8249544871112687,
+      "contiguity": 0.7058191824954695
+     },
+     {
+      "kind": 56,
+      "name": "palm trees (71%), distant mountains (52%), low-rise buildings (79%)",
+      "n_places": 567,
+      "compactness_ratio": 0.8388775940419972,
+      "contiguity": 0.6869689948140792
+     },
+     {
+      "kind": 46,
+      "name": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+      "n_places": 711,
+      "compactness_ratio": 0.8960314388247602,
+      "contiguity": 0.5609927829607464
+     },
+     {
+      "kind": 3,
+      "name": "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+      "n_places": 570,
+      "compactness_ratio": 0.9322657090407823,
+      "contiguity": 0.6395348837209303
+     },
+     {
+      "kind": 4,
+      "name": "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+      "n_places": 643,
+      "compactness_ratio": 0.9646826796301913,
+      "contiguity": 0.6377321603128054
+     }
+    ],
+    "spearman_wall_vs_geo_spread": {
+     "rho": 0.4184981684981684,
+     "p": 0.0005786926983910206
+    }
+   },
+   "kind_adjacency_top": [
+    {
+     "a": 6,
+     "a_name": "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "b": 43,
+     "b_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "shared_edges": 150,
+     "lift": 9.869490940102118
+    },
+    {
+     "a": 43,
+     "a_name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 146,
+     "lift": 9.771930454947086
+    },
+    {
+     "a": 12,
+     "a_name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 555,
+     "lift": 8.92171011903578
+    },
+    {
+     "a": 8,
+     "a_name": "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "b": 57,
+     "b_name": "stone walls (92%), chimneys (53%), pitched roofs (56%)",
+     "shared_edges": 630,
+     "lift": 7.619099191132387
+    },
+    {
+     "a": 30,
+     "a_name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 528,
+     "lift": 7.591116958706886
+    },
+    {
+     "a": 42,
+     "a_name": "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "b": 63,
+     "b_name": "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)",
+     "shared_edges": 571,
+     "lift": 7.395476641972969
+    },
+    {
+     "a": 45,
+     "a_name": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "b": 53,
+     "b_name": "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "shared_edges": 854,
+     "lift": 7.293358471306448
+    },
+    {
+     "a": 2,
+     "a_name": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 511,
+     "lift": 6.9577796840886155
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 515,
+     "lift": 6.652529987408436
+    },
+    {
+     "a": 22,
+     "a_name": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "b": 31,
+     "b_name": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "shared_edges": 568,
+     "lift": 6.48671180605244
+    },
+    {
+     "a": 49,
+     "a_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "b": 60,
+     "b_name": "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)",
+     "shared_edges": 204,
+     "lift": 5.0886175143055885
+    },
+    {
+     "a": 47,
+     "a_name": "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "b": 49,
+     "b_name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "shared_edges": 198,
+     "lift": 4.762561139964579
+    }
+   ],
+   "countries": {
+    "n_countries": 104,
+    "most_compact": [
+     {
+      "country": "Italy",
+      "n_tiles": 3652,
+      "compactness_ratio": 0.28990211984216097,
+      "country_purity": 0.9151150054764513
+     },
+     {
+      "country": "Czechia",
+      "n_tiles": 472,
+      "compactness_ratio": 0.38771281046955386,
+      "country_purity": 0.5847457627118644
+     },
+     {
+      "country": "Russia",
+      "n_tiles": 5102,
+      "compactness_ratio": 0.39365761182168035,
+      "country_purity": 0.8169933359466877
+     },
+     {
+      "country": "Belarus",
+      "n_tiles": 340,
+      "compactness_ratio": 0.3955893723124472,
+      "country_purity": 0.15411764705882353
+     },
+     {
+      "country": "Japan",
+      "n_tiles": 6892,
+      "compactness_ratio": 0.406464089199919,
+      "country_purity": 0.9600696459663378
+     },
+     {
+      "country": "Ukraine",
+      "n_tiles": 1584,
+      "compactness_ratio": 0.43771003992525753,
+      "country_purity": 0.5429292929292929
+     },
+     {
+      "country": "Lithuania",
+      "n_tiles": 204,
+      "compactness_ratio": 0.4407498192980326,
+      "country_purity": 0.1823529411764706
+     },
+     {
+      "country": "Switzerland",
+      "n_tiles": 420,
+      "compactness_ratio": 0.46238327917871663,
+      "country_purity": 0.720952380952381
+     },
+     {
+      "country": "Spain",
+      "n_tiles": 2308,
+      "compactness_ratio": 0.4660113662602125,
+      "country_purity": 0.7700173310225303
+     },
+     {
+      "country": "Benin",
+      "n_tiles": 492,
+      "compactness_ratio": 0.49899993673548265,
+      "country_purity": 0.2926829268292683
+     }
+    ],
+    "least_compact": [
+     {
+      "country": "Madagascar",
+      "n_tiles": 1940,
+      "compactness_ratio": 0.9949463914842416,
+      "country_purity": 0.7612371134020618
+     },
+     {
+      "country": "Vietnam",
+      "n_tiles": 628,
+      "compactness_ratio": 1.0143236977211745,
+      "country_purity": 0.34394904458598724
+     },
+     {
+      "country": "Nicaragua",
+      "n_tiles": 412,
+      "compactness_ratio": 1.0188831036000923,
+      "country_purity": 0.1262135922330097
+     },
+     {
+      "country": "Kenya",
+      "n_tiles": 328,
+      "compactness_ratio": 1.0543234535580885,
+      "country_purity": 0.08902439024390245
+     },
+     {
+      "country": "Angola",
+      "n_tiles": 404,
+      "compactness_ratio": 1.0728414596570617,
+      "country_purity": 0.11683168316831684
+     }
+    ],
+    "spearman_compactness_vs_purity": {
+     "rho": -0.316527036507678,
+     "p": 0.0010621045335284139
+    }
+   },
+   "geo_territories": {
+    "regions": [
+     {
+      "group": "Southern Europe",
+      "n_tiles": 8124,
+      "compactness_ratio": 0.46470317079513296
+     },
+     {
+      "group": "Eastern Europe",
+      "n_tiles": 10746,
+      "compactness_ratio": 0.49377592644132146
+     },
+     {
+      "group": "Northern Europe",
+      "n_tiles": 6592,
+      "compactness_ratio": 0.6842155515063663
+     },
+     {
+      "group": "Northern America",
+      "n_tiles": 19812,
+      "compactness_ratio": 0.7175078556804619
+     },
+     {
+      "group": "Western Europe",
+      "n_tiles": 11224,
+      "compactness_ratio": 0.7273155138672815
+     },
+     {
+      "group": "Australia and New Zealand",
+      "n_tiles": 1296,
+      "compactness_ratio": 0.7335314566811596
+     },
+     {
+      "group": "Central America",
+      "n_tiles": 9592,
+      "compactness_ratio": 0.7492406008486343
+     },
+     {
+      "group": "Western Africa",
+      "n_tiles": 2992,
+      "compactness_ratio": 0.7682874123107296
+     },
+     {
+      "group": "Central Asia",
+      "n_tiles": 1592,
+      "compactness_ratio": 0.7691140107321836
+     },
+     {
+      "group": "Western Asia",
+      "n_tiles": 9024,
+      "compactness_ratio": 0.864745901603881
+     },
+     {
+      "group": "Eastern Asia",
+      "n_tiles": 14924,
+      "compactness_ratio": 0.8738795562344467
+     },
+     {
+      "group": "Southern Asia",
+      "n_tiles": 20928,
+      "compactness_ratio": 0.8831719692832033
+     },
+     {
+      "group": "South-eastern Asia",
+      "n_tiles": 9519,
+      "compactness_ratio": 0.901971422926057
+     },
+     {
+      "group": "Northern Africa",
+      "n_tiles": 4500,
+      "compactness_ratio": 0.9050695435468419
+     },
+     {
+      "group": "South America",
+      "n_tiles": 18967,
+      "compactness_ratio": 0.911587837190631
+     },
+     {
+      "group": "Southern Africa",
+      "n_tiles": 1148,
+      "compactness_ratio": 0.9482837826546918
+     },
+     {
+      "group": "Middle Africa",
+      "n_tiles": 1472,
+      "compactness_ratio": 0.9592503929929214
+     },
+     {
+      "group": "Caribbean",
+      "n_tiles": 1976,
+      "compactness_ratio": 0.9712572768287382
+     },
+     {
+      "group": "Eastern Africa",
+      "n_tiles": 4756,
+      "compactness_ratio": 0.9850097135130663
+     }
+    ],
+    "climates": [
+     {
+      "group": "Dfc",
+      "n_tiles": 476,
+      "compactness_ratio": 0.5208636788280578
+     },
+     {
+      "group": "Dfb",
+      "n_tiles": 11926,
+      "compactness_ratio": 0.6186161351100877
+     },
+     {
+      "group": "Cfb",
+      "n_tiles": 17816,
+      "compactness_ratio": 0.7633345440826372
+     },
+     {
+      "group": "Csa",
+      "n_tiles": 11444,
+      "compactness_ratio": 0.767866616346256
+     },
+     {
+      "group": "Cfa",
+      "n_tiles": 24448,
+      "compactness_ratio": 0.8568527143704426
+     },
+     {
+      "group": "Dfa",
+      "n_tiles": 10676,
+      "compactness_ratio": 0.8788833064032642
+     },
+     {
+      "group": "Csb",
+      "n_tiles": 2884,
+      "compactness_ratio": 0.8890701961108735
+     },
+     {
+      "group": "BWk",
+      "n_tiles": 1088,
+      "compactness_ratio": 0.8982969425829451
+     },
+     {
+      "group": "BWh",
+      "n_tiles": 8464,
+      "compactness_ratio": 0.9276530265131652
+     },
+     {
+      "group": "Cwb",
+      "n_tiles": 4192,
+      "compactness_ratio": 0.9324827397362031
+     },
+     {
+      "group": "BSk",
+      "n_tiles": 5904,
+      "compactness_ratio": 0.9380985376857349
+     },
+     {
+      "group": "Cwa",
+      "n_tiles": 9956,
+      "compactness_ratio": 0.9502584623960174
+     },
+     {
+      "group": "BSh",
+      "n_tiles": 10960,
+      "compactness_ratio": 0.9793635596287875
+     },
+     {
+      "group": "Af",
+      "n_tiles": 7335,
+      "compactness_ratio": 1.024348360906592
+     },
+     {
+      "group": "Am",
+      "n_tiles": 7664,
+      "compactness_ratio": 1.0255802725562966
+     },
+     {
+      "group": "Aw",
+      "n_tiles": 24291,
+      "compactness_ratio": 1.0595748963080156
+     }
+    ]
+   },
+   "repetitiveness": {
+    "homog_mean": 0.503062491349847,
+    "homog_p10": 0.2873878045938909,
+    "homog_p90": 0.6898097407072783,
+    "spearman_vs_documentation": {
+     "rho": 0.01720164761223496,
+     "p": 0.0005899941346668809
+    },
+    "spearman_vs_log_population": {
+     "rho": -0.05095443155002143,
+     "p": 2.3270416715255025e-24
+    },
+    "by_documentation_bin": [
+     {
+      "wiki_visibility_bin": null,
+      "homog": 0.4607942779548466,
+      "len": 1
+     },
+     {
+      "wiki_visibility_bin": "absent",
+      "homog": 0.5088934252072027,
+      "len": 4028
+     },
+     {
+      "wiki_visibility_bin": "medium",
+      "homog": 0.5045342003922584,
+      "len": 11956
+     },
+     {
+      "wiki_visibility_bin": "rich",
+      "homog": 0.5062203112729748,
+      "len": 11951
+     },
+     {
+      "wiki_visibility_bin": "sparse",
+      "homog": 0.49647602615208036,
+      "len": 11965
+     }
+    ],
+    "densest_kinds": [
+     {
+      "kind": 30,
+      "name": "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+      "homog": 0.6102090257172277,
+      "n_tiles": 1672
+     },
+     {
+      "kind": 49,
+      "name": "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+      "homog": 0.6079413809285173,
+      "n_tiles": 928
+     },
+     {
+      "kind": 12,
+      "name": "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+      "homog": 0.6065372986865339,
+      "n_tiles": 1440
+     },
+     {
+      "kind": 33,
+      "name": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+      "homog": 0.6024039974385731,
+      "n_tiles": 2216
+     },
+     {
+      "kind": 43,
+      "name": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+      "homog": 0.5926144456244306,
+      "n_tiles": 644
+     }
+    ],
+    "sparsest_kinds": [
+     {
+      "kind": 46,
+      "name": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+      "homog": 0.43038057202014657,
+      "n_tiles": 2844
+     },
+     {
+      "kind": 20,
+      "name": "high ceilings (24%), corrugated metal roof (29%), glass storefront (22%)",
+      "homog": 0.4252959375527873,
+      "n_tiles": 3348
+     },
+     {
+      "kind": 29,
+      "name": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+      "homog": 0.41979597864774837,
+      "n_tiles": 4032
+     }
+    ]
+   }
+  }
+ },
+ "robustness": {
+  "spread_median_stable_frac": {
+   "min": 0.008317133425813085,
+   "max": 0.021715704499994406,
+   "n": 6
+  },
+  "spread_median_unstable_frac": {
+   "min": 0.24714144953189887,
+   "max": 0.31034154514010187,
+   "n": 6
+  },
+  "spread_median_random_frac": {
+   "min": 0.3709325366820065,
+   "max": 0.3718620455667859,
+   "n": 6
+  },
+  "spread_rho": {
+   "min": 0.4996987369423991,
+   "max": 0.6931659906505246,
+   "n": 6
+  },
+  "homog_vs_documentation_rho": {
+   "min": 0.013765526035566694,
+   "max": 0.059340781275794834,
+   "n": 6
+  },
+  "homog_vs_log_population_rho": {
+   "min": -0.05095443155002143,
+   "max": -0.027602899532321278,
+   "n": 6
+  },
+  "legibility": {
+   "kind": {
+    "min": 0.5770158885196032,
+    "max": 0.7241523324283052,
+    "n": 6
+   },
+   "region": {
+    "min": 0.6037441700525825,
+    "max": 0.7405273480264701,
+    "n": 6
+   },
+   "country": {
+    "min": 0.4638875581649819,
+    "max": 0.6306326700846755,
+    "n": 6
+   },
+   "climate": {
+    "min": 0.34246375239318183,
+    "max": 0.5021407435677294,
+    "n": 6
+   },
+   "documentation": {
+    "min": 0.12267412530531326,
+    "max": 0.28864373264379845,
+    "n": 6
+   },
+   "population": {
+    "min": 0.15959584526370862,
+    "max": 0.3573140146467796,
+    "n": 6
+   },
+   "stability": {
+    "min": 0.40107499073293595,
+    "max": 0.6188908459634986,
+    "n": 6
+   },
+   "same_place": {
+    "min": 0.03211760160269722,
+    "max": 0.194715387105455,
+    "n": 6
+   }
+  },
+  "legibility_beyond_region": {
+   "country": {
+    "min": 0.21795529702449892,
+    "max": 0.33431049589238393,
+    "n": 6
+   },
+   "climate": {
+    "min": 0.1514832270278776,
+    "max": 0.28603069046595786,
+    "n": 6
+   },
+   "documentation": {
+    "min": 0.07048744461144313,
+    "max": 0.2312267917157499,
+    "n": 6
+   },
+   "population": {
+    "min": 0.13808184536221102,
+    "max": 0.32947207602374634,
+    "n": 6
+   },
+   "stability": {
+    "min": 0.3999138199824811,
+    "max": 0.6185562162476929,
+    "n": 6
+   }
+  },
+  "median_kind_compactness": {
+   "min": 0.36939628233170485,
+   "max": 0.6576751230439548,
+   "n": 6
+  }
+ }
+}

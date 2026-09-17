@@ -1,0 +1,31 @@
+{
+ "features": "analysis_features.npy",
+ "dim": 640,
+ "n_places": 40000,
+ "per_k": {
+  "32": {
+   "share_place_kinds_lt1000km": 0.4375,
+   "share_regional_1000_3000km": 0.25,
+   "share_continental_ge3000km": 0.3125,
+   "median_geo_spread_km": 1659.25146873956,
+   "median_wall_compactness": 0.5438906799279724,
+   "share_wall_compact_lt0_5": 0.40625
+  },
+  "64": {
+   "share_place_kinds_lt1000km": 0.453125,
+   "share_regional_1000_3000km": 0.25,
+   "share_continental_ge3000km": 0.296875,
+   "median_geo_spread_km": 1109.1145423718385,
+   "median_wall_compactness": 0.5210632499482559,
+   "share_wall_compact_lt0_5": 0.4375
+  },
+  "128": {
+   "share_place_kinds_lt1000km": 0.5,
+   "share_regional_1000_3000km": 0.2890625,
+   "share_continental_ge3000km": 0.2109375,
+   "median_geo_spread_km": 977.3793157915568,
+   "median_wall_compactness": 0.48053358918254163,
+   "share_wall_compact_lt0_5": 0.5234375
+  }
+ }
+}

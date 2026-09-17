@@ -1,0 +1,10 @@
+numpy
+polars
+pyarrow
+scipy
+scikit-learn
+networkx
+matplotlib
+pillow
+click
+huggingface_hub

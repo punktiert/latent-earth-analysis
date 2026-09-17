@@ -1,0 +1,68 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000
+ },
+ "per_arm": {
+  "baseline": {
+   "accuracy": 0.528,
+   "balanced_accuracy": 0.12631347346724134,
+   "majority_baseline": 0.109,
+   "null_mean": 0.052795795795795804,
+   "null_p975": 0.07,
+   "p_value": 0.001,
+   "ci95": [
+    0.498475,
+    0.559525
+   ],
+   "n": 1000,
+   "n_classes": 133
+  },
+  "seed": {
+   "accuracy": 0.519,
+   "balanced_accuracy": 0.130384254903158,
+   "majority_baseline": 0.109,
+   "null_mean": 0.05276876876876878,
+   "null_p975": 0.07,
+   "p_value": 0.001,
+   "ci95": [
+    0.49,
+    0.552
+   ],
+   "n": 1000,
+   "n_classes": 133
+  },
+  "res": {
+   "accuracy": 0.526,
+   "balanced_accuracy": 0.127349755488226,
+   "majority_baseline": 0.109,
+   "null_mean": 0.05255255255255256,
+   "null_p975": 0.069,
+   "p_value": 0.001,
+   "ci95": [
+    0.495475,
+    0.557525
+   ],
+   "n": 1000,
+   "n_classes": 133
+  }
+ },
+ "purity_stability": {
+  "baseline_vs_res": {
+   "rho": 0.9279727305084897,
+   "p": 0.0,
+   "n": 1000
+  },
+  "baseline_vs_seed": {
+   "rho": 0.9244004841248168,
+   "p": 0.0,
+   "n": 1000
+  },
+  "res_vs_seed": {
+   "rho": 0.9346649541923053,
+   "p": 0.0,
+   "n": 1000
+  }
+ }
+}

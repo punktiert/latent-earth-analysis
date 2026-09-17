@@ -1,0 +1,1234 @@
+{
+ "n_places": 40000,
+ "n_same_prompt": 30366,
+ "n_district": 14957,
+ "n_metropolises": 765,
+ "district_parent_population_min": 500000,
+ "towns": {
+  "n": 25043,
+  "population_median": 24741.0,
+  "population_max": 33756000
+ },
+ "no_architecture": {
+  "name_only": 0.052925,
+  "n_name_only": 2117,
+  "architecture_prompt": 0.0003
+ },
+ "feature_recurrence": {
+  "terms": {
+   "brick": {
+    "category": "material",
+    "n": 10997,
+    "share_of_places": 0.2902885199165853,
+    "recurs_same_place": 0.5305083204510321,
+    "recurs_same_country": 0.43029917250159133,
+    "recurs_any_place": 0.306447212876239
+   },
+   "stone": {
+    "category": "material",
+    "n": 10193,
+    "share_of_places": 0.2690652799408706,
+    "recurs_same_place": 0.6016874325517512,
+    "recurs_same_country": 0.4991660943784951,
+    "recurs_any_place": 0.3928186010006868
+   },
+   "concrete": {
+    "category": "material",
+    "n": 2773,
+    "share_of_places": 0.07319906026449859,
+    "recurs_same_place": 0.33429498737829066,
+    "recurs_same_country": 0.17814641182834476,
+    "recurs_any_place": 0.12261089073205914
+   },
+   "timber": {
+    "category": "material",
+    "n": 8532,
+    "share_of_places": 0.22521975556318138,
+    "recurs_same_place": 0.4206516643225504,
+    "recurs_same_country": 0.3151664322550399,
+    "recurs_any_place": 0.18905297702766058
+   },
+   "render": {
+    "category": "material",
+    "n": 4472,
+    "share_of_places": 0.11804767309875142,
+    "recurs_same_place": 0.4351520572450805,
+    "recurs_same_country": 0.3184257602862254,
+    "recurs_any_place": 0.16323792486583183
+   },
+   "glass": {
+    "category": "material",
+    "n": 1414,
+    "share_of_places": 0.03732544941002561,
+    "recurs_same_place": 0.4957567185289958,
+    "recurs_same_country": 0.18033946251768035,
+    "recurs_any_place": 0.08557284299858557
+   },
+   "metal": {
+    "category": "material",
+    "n": 4369,
+    "share_of_places": 0.11532877544017105,
+    "recurs_same_place": 0.23094529640650036,
+    "recurs_same_country": 0.15541313801785306,
+    "recurs_any_place": 0.09910734721904325
+   },
+   "earth": {
+    "category": "material",
+    "n": 2779,
+    "share_of_places": 0.07335744265237705,
+    "recurs_same_place": 0.3033465275278877,
+    "recurs_same_country": 0.20654911838790932,
+    "recurs_any_place": 0.05613530046779417
+   },
+   "flat roof": {
+    "category": "roof",
+    "n": 11124,
+    "share_of_places": 0.2936409471266795,
+    "recurs_same_place": 0.3354908306364617,
+    "recurs_same_country": 0.2474829198130169,
+    "recurs_any_place": 0.20685005393743258
+   },
+   "pitched roof": {
+    "category": "roof",
+    "n": 10484,
+    "share_of_places": 0.27674682575297627,
+    "recurs_same_place": 0.47272033574971384,
+    "recurs_same_country": 0.4101487981686379,
+    "recurs_any_place": 0.3395650515070584
+   },
+   "tiled roof": {
+    "category": "roof",
+    "n": 10822,
+    "share_of_places": 0.2856690336034633,
+    "recurs_same_place": 0.5855664387359083,
+    "recurs_same_country": 0.5022177046756607,
+    "recurs_any_place": 0.33136204028830163
+   },
+   "slate roof": {
+    "category": "roof",
+    "n": 539,
+    "share_of_places": 0.014228017844415701,
+    "recurs_same_place": 0.3450834879406308,
+    "recurs_same_country": 0.20964749536178107,
+    "recurs_any_place": 0.016697588126159554
+   },
+   "thatch": {
+    "category": "roof",
+    "n": 1174,
+    "share_of_places": 0.03099015389488689,
+    "recurs_same_place": 0.03747870528109029,
+    "recurs_same_country": 0.024701873935264053,
+    "recurs_any_place": 0.0017035775127768314
+   },
+   "metal roof": {
+    "category": "roof",
+    "n": 2187,
+    "share_of_places": 0.05773038038170156,
+    "recurs_same_place": 0.1568358481938729,
+    "recurs_same_country": 0.1262002743484225,
+    "recurs_any_place": 0.025605852766346592
+   },
+   "dome": {
+    "category": "roof",
+    "n": 3291,
+    "share_of_places": 0.08687273975133965,
+    "recurs_same_place": 0.5660893345487694,
+    "recurs_same_country": 0.4029170464904284,
+    "recurs_any_place": 0.18474627772713462
+   },
+   "tiered roof": {
+    "category": "roof",
+    "n": 1834,
+    "share_of_places": 0.04841221656151836,
+    "recurs_same_place": 0.35932388222464556,
+    "recurs_same_country": 0.25572519083969464,
+    "recurs_any_place": 0.08505997818974918
+   },
+   "arch": {
+    "category": "element",
+    "n": 9553,
+    "share_of_places": 0.2521711585671673,
+    "recurs_same_place": 0.7283575840050246,
+    "recurs_same_country": 0.6314246833455459,
+    "recurs_any_place": 0.4786977912697582
+   },
+   "column": {
+    "category": "element",
+    "n": 5166,
+    "share_of_places": 0.13636723596336087,
+    "recurs_same_place": 0.4707704219899342,
+    "recurs_same_country": 0.39314750290360045,
+    "recurs_any_place": 0.3166860240030972
+   },
+   "balcony": {
+    "category": "element",
+    "n": 2373,
+    "share_of_places": 0.06264023440593405,
+    "recurs_same_place": 0.3775811209439528,
+    "recurs_same_country": 0.2069110830172777,
+    "recurs_any_place": 0.13190054782975136
+   },
+   "shutter": {
+    "category": "element",
+    "n": 1539,
+    "share_of_places": 0.04062508249082702,
+    "recurs_same_place": 0.198180636777128,
+    "recurs_same_country": 0.12280701754385964,
+    "recurs_any_place": 0.06237816764132553
+   },
+   "chimney": {
+    "category": "element",
+    "n": 1902,
+    "share_of_places": 0.05020721695747433,
+    "recurs_same_place": 0.361198738170347,
+    "recurs_same_country": 0.27287066246056785,
+    "recurs_any_place": 0.05783385909568875
+   },
+   "tower": {
+    "category": "element",
+    "n": 6526,
+    "share_of_places": 0.17226724388248027,
+    "recurs_same_place": 0.4163346613545817,
+    "recurs_same_country": 0.31091020533251607,
+    "recurs_any_place": 0.22755133312902237
+   },
+   "storefront": {
+    "category": "element",
+    "n": 6799,
+    "share_of_places": 0.17947364253095055,
+    "recurs_same_place": 0.20885424327106927,
+    "recurs_same_country": 0.1086924547727607,
+    "recurs_any_place": 0.08457126047948228
+   },
+   "courtyard": {
+    "category": "element",
+    "n": 3974,
+    "share_of_places": 0.10490193490483858,
+    "recurs_same_place": 0.2906391545042778,
+    "recurs_same_country": 0.2521389028686462,
+    "recurs_any_place": 0.15651736285858078
+   },
+   "porch": {
+    "category": "element",
+    "n": 1425,
+    "share_of_places": 0.03761581712113613,
+    "recurs_same_place": 0.26105263157894737,
+    "recurs_same_country": 0.1543859649122807,
+    "recurs_any_place": 0.0687719298245614
+   },
+   "stair": {
+    "category": "element",
+    "n": 2004,
+    "share_of_places": 0.052899717551408286,
+    "recurs_same_place": 0.3153692614770459,
+    "recurs_same_country": 0.2275449101796407,
+    "recurs_any_place": 0.14171656686626746
+   },
+   "fence": {
+    "category": "element",
+    "n": 2179,
+    "share_of_places": 0.057519203864530265,
+    "recurs_same_place": 0.18219366681964203,
+    "recurs_same_country": 0.11427260211106012,
+    "recurs_any_place": 0.08398347865993575
+   },
+   "cobblestone": {
+    "category": "street",
+    "n": 2560,
+    "share_of_places": 0.06757648549481297,
+    "recurs_same_place": 0.329296875,
+    "recurs_same_country": 0.24375,
+    "recurs_any_place": 0.08515625
+   },
+   "paved": {
+    "category": "street",
+    "n": 1851,
+    "share_of_places": 0.04886096666050735,
+    "recurs_same_place": 0.06212857914640735,
+    "recurs_same_country": 0.046461372231226365,
+    "recurs_any_place": 0.03511615343057806
+   },
+   "unpaved": {
+    "category": "street",
+    "n": 1776,
+    "share_of_places": 0.0468811868120265,
+    "recurs_same_place": 0.09797297297297297,
+    "recurs_same_country": 0.07150900900900901,
+    "recurs_any_place": 0.019707207207207207
+   },
+   "alley": {
+    "category": "street",
+    "n": 3131,
+    "share_of_places": 0.08264920940791384,
+    "recurs_same_place": 0.07888853401469179,
+    "recurs_same_country": 0.04407537527946343,
+    "recurs_any_place": 0.03066113062919195
+   },
+   "wires": {
+    "category": "street",
+    "n": 1971,
+    "share_of_places": 0.05202861441807671,
+    "recurs_same_place": 0.08878741755454084,
+    "recurs_same_country": 0.040081177067478435,
+    "recurs_any_place": 0.023338406900050734
+   },
+   "mountain": {
+    "category": "setting",
+    "n": 8149,
+    "share_of_places": 0.21510967980360585,
+    "recurs_same_place": 0.18517609522640816,
+    "recurs_same_country": 0.12197815682905878,
+    "recurs_any_place": 0.07252423610258928
+   },
+   "palm": {
+    "category": "setting",
+    "n": 4445,
+    "share_of_places": 0.11733495235329831,
+    "recurs_same_place": 0.3253093363329584,
+    "recurs_same_country": 0.15703037120359956,
+    "recurs_any_place": 0.07694038245219348
+   },
+   "trees": {
+    "category": "setting",
+    "n": 13847,
+    "share_of_places": 0.3655201541588575,
+    "recurs_same_place": 0.2797717917238391,
+    "recurs_same_country": 0.2123203582003322,
+    "recurs_any_place": 0.17772802773163862
+   },
+   "arid": {
+    "category": "setting",
+    "n": 1861,
+    "share_of_places": 0.04912493730697146,
+    "recurs_same_place": 0.23911875335840946,
+    "recurs_same_country": 0.11069317571198281,
+    "recurs_any_place": 0.022568511552928532
+   },
+   "water": {
+    "category": "setting",
+    "n": 4219,
+    "share_of_places": 0.11136921574320935,
+    "recurs_same_place": 0.12206684048352691,
+    "recurs_same_country": 0.040530931500355534,
+    "recurs_any_place": 0.024887414079165678
+   },
+   "field": {
+    "category": "setting",
+    "n": 2176,
+    "share_of_places": 0.05744001267059103,
+    "recurs_same_place": 0.035845588235294115,
+    "recurs_same_country": 0.013786764705882353,
+    "recurs_any_place": 0.0059742647058823525
+   }
+  },
+  "mean_share_recurring": {
+   "same_place": 0.38223986722845776,
+   "same_country": 0.285246770567695,
+   "any_place": 0.19843743329037059
+  },
+  "four_controls": {
+   "mean_share_recurring": {
+    "same_place": 0.38223939597490164,
+    "same_country": 0.2853965452825803,
+    "same_region_other_country": 0.24522894502595727,
+    "any_place": 0.1974540335483764
+   },
+   "terms": {
+    "brick": {
+     "category": "material",
+     "same_place": 0.5305083204510321,
+     "same_country": 0.43530053650995726,
+     "same_region_other_country": 0.35655178685095934,
+     "any_place": 0.3049013367281986
+    },
+    "stone": {
+     "category": "material",
+     "same_place": 0.6016874325517512,
+     "same_country": 0.4933778082998136,
+     "same_region_other_country": 0.44623233908948196,
+     "any_place": 0.3909545766702639
+    },
+    "concrete": {
+     "category": "material",
+     "same_place": 0.33429498737829066,
+     "same_country": 0.1723764875586008,
+     "same_region_other_country": 0.14496934727731697,
+     "any_place": 0.11287414352686621
+    },
+    "timber": {
+     "category": "material",
+     "same_place": 0.4206516643225504,
+     "same_country": 0.31551804969526487,
+     "same_region_other_country": 0.27531645569620256,
+     "any_place": 0.19268635724331926
+    },
+    "render": {
+     "category": "material",
+     "same_place": 0.4351520572450805,
+     "same_country": 0.3161896243291592,
+     "same_region_other_country": 0.24552772808586762,
+     "any_place": 0.15854203935599284
+    },
+    "glass": {
+     "category": "material",
+     "same_place": 0.4957567185289958,
+     "same_country": 0.19448373408769448,
+     "same_region_other_country": 0.2263083451202263,
+     "any_place": 0.08486562942008487
+    },
+    "metal": {
+     "category": "material",
+     "same_place": 0.23094529640650036,
+     "same_country": 0.15403982604715039,
+     "same_region_other_country": 0.13687342641336692,
+     "any_place": 0.10391393911650264
+    },
+    "earth": {
+     "category": "material",
+     "same_place": 0.3033465275278877,
+     "same_country": 0.22813961856783016,
+     "same_region_other_country": 0.16876574307304787,
+     "any_place": 0.05361640878013674
+    },
+    "flat roof": {
+     "category": "roof",
+     "same_place": 0.3354908306364617,
+     "same_country": 0.2513484358144552,
+     "same_region_other_country": 0.24247055650454014,
+     "any_place": 0.2017259978425027
+    },
+    "pitched roof": {
+     "category": "roof",
+     "same_place": 0.47272033574971384,
+     "same_country": 0.4070011446012972,
+     "same_region_other_country": 0.3900228920259443,
+     "any_place": 0.33212514307516217
+    },
+    "tiled roof": {
+     "category": "roof",
+     "same_place": 0.5855664387359083,
+     "same_country": 0.4902051376824986,
+     "same_region_other_country": 0.4221031232674182,
+     "any_place": 0.3368138976159675
+    },
+    "slate roof": {
+     "category": "roof",
+     "same_place": 0.3450834879406308,
+     "same_country": 0.18738404452690166,
+     "same_region_other_country": 0.15769944341372913,
+     "any_place": 0.02040816326530612
+    },
+    "thatch": {
+     "category": "roof",
+     "same_place": 0.03747870528109029,
+     "same_country": 0.02555366269165247,
+     "same_region_other_country": 0.013628620102214651,
+     "any_place": 0.005110732538330494
+    },
+    "metal roof": {
+     "category": "roof",
+     "same_place": 0.1568358481938729,
+     "same_country": 0.13534522176497485,
+     "same_region_other_country": 0.08596250571559214,
+     "any_place": 0.03155006858710562
+    },
+    "dome": {
+     "category": "roof",
+     "same_place": 0.5660893345487694,
+     "same_country": 0.4004861744150714,
+     "same_region_other_country": 0.32786387116378,
+     "any_place": 0.18778486782133091
+    },
+    "tiered roof": {
+     "category": "roof",
+     "same_place": 0.35932388222464556,
+     "same_country": 0.2677208287895311,
+     "same_region_other_country": 0.11450381679389313,
+     "any_place": 0.08560523446019629
+    },
+    "arch": {
+     "category": "element",
+     "same_place": 0.7283575840050246,
+     "same_country": 0.6257720087930493,
+     "same_region_other_country": 0.5785617083638648,
+     "any_place": 0.48550193656443
+    },
+    "column": {
+     "category": "element",
+     "same_place": 0.4707704219899342,
+     "same_country": 0.37746806039488967,
+     "same_region_other_country": 0.30100658149438636,
+     "any_place": 0.3060394889663182
+    },
+    "balcony": {
+     "category": "element",
+     "same_place": 0.3775811209439528,
+     "same_country": 0.213653603034134,
+     "same_region_other_country": 0.19216182048040456,
+     "any_place": 0.12389380530973451
+    },
+    "shutter": {
+     "category": "element",
+     "same_place": 0.198180636777128,
+     "same_country": 0.11695906432748537,
+     "same_region_other_country": 0.07407407407407407,
+     "any_place": 0.05263157894736842
+    },
+    "chimney": {
+     "category": "element",
+     "same_place": 0.361198738170347,
+     "same_country": 0.27024185068349105,
+     "same_region_other_country": 0.1288117770767613,
+     "any_place": 0.05993690851735016
+    },
+    "tower": {
+     "category": "element",
+     "same_place": 0.4163346613545817,
+     "same_country": 0.32255593012565126,
+     "same_region_other_country": 0.2744406987434876,
+     "any_place": 0.2149862090101134
+    },
+    "storefront": {
+     "category": "element",
+     "same_place": 0.20885424327106927,
+     "same_country": 0.11133990292690102,
+     "same_region_other_country": 0.09751434034416825,
+     "any_place": 0.08574790410354464
+    },
+    "courtyard": {
+     "category": "element",
+     "same_place": 0.2906391545042778,
+     "same_country": 0.2523905385002516,
+     "same_region_other_country": 0.2350276799194766,
+     "any_place": 0.1587820835430297
+    },
+    "porch": {
+     "category": "element",
+     "same_place": 0.26105263157894737,
+     "same_country": 0.1649122807017544,
+     "same_region_other_country": 0.0863157894736842,
+     "any_place": 0.07508771929824562
+    },
+    "stair": {
+     "category": "element",
+     "same_place": 0.3153692614770459,
+     "same_country": 0.2280439121756487,
+     "same_region_other_country": 0.15169660678642716,
+     "any_place": 0.13622754491017963
+    },
+    "fence": {
+     "category": "element",
+     "same_place": 0.18219366681964203,
+     "same_country": 0.11840293712712253,
+     "same_region_other_country": 0.1179440110142267,
+     "any_place": 0.09775126204681046
+    },
+    "cobblestone": {
+     "category": "street",
+     "same_place": 0.329296875,
+     "same_country": 0.246875,
+     "same_region_other_country": 0.185546875,
+     "any_place": 0.091796875
+    },
+    "paved": {
+     "category": "street",
+     "same_place": 0.06212857914640735,
+     "same_country": 0.050783360345759046,
+     "same_region_other_country": 0.03727714748784441,
+     "any_place": 0.03457590491626148
+    },
+    "unpaved": {
+     "category": "street",
+     "same_place": 0.09797297297297297,
+     "same_country": 0.07826576576576577,
+     "same_region_other_country": 0.07432432432432433,
+     "any_place": 0.019144144144144143
+    },
+    "alley": {
+     "category": "street",
+     "same_place": 0.07888853401469179,
+     "same_country": 0.04183966783775152,
+     "same_region_other_country": 0.042159054615138934,
+     "any_place": 0.024912168636218462
+    },
+    "wires": {
+     "category": "street",
+     "same_place": 0.08878741755454084,
+     "same_country": 0.021816336884830034,
+     "same_region_other_country": 0.020801623541349568,
+     "any_place": 0.0121765601217656
+    },
+    "mountain": {
+     "category": "setting",
+     "same_place": 0.18517609522640816,
+     "same_country": 0.11878758129831882,
+     "same_region_other_country": 0.10381641919253896,
+     "any_place": 0.07338323720701927
+    },
+    "palm": {
+     "category": "setting",
+     "same_place": 0.3253093363329584,
+     "same_country": 0.15163104611923509,
+     "same_region_other_country": 0.09248424842484249,
+     "any_place": 0.07379077615298088
+    },
+    "trees": {
+     "category": "setting",
+     "same_place": 0.2797717917238391,
+     "same_country": 0.20878168556366,
+     "same_region_other_country": 0.1836631518127979,
+     "any_place": 0.1745504441395248
+    },
+    "arid": {
+     "category": "setting",
+     "same_place": 0.23911875335840946,
+     "same_country": 0.11391724879097259,
+     "same_region_other_country": 0.055346587855991405,
+     "any_place": 0.02095647501343364
+    },
+    "water": {
+     "category": "setting",
+     "same_place": 0.12206684048352691,
+     "same_country": 0.04384925337757763,
+     "same_region_other_country": 0.03295400663821717,
+     "any_place": 0.02393932211424508
+    },
+    "field": {
+     "category": "setting",
+     "same_place": 0.035845588235294115,
+     "same_country": 0.017463235294117647,
+     "same_region_other_country": 0.009650735294117647,
+     "any_place": 0.0055147058823529415
+    }
+   }
+  }
+ },
+ "within_country_climate": {
+  "n_places": 36014,
+  "accuracy": 0.6428611095685012,
+  "country_majority_baseline": 0.5466207585938802
+ },
+ "image": {
+  "seed": {
+   "n": 30366,
+   "top1": 0.94665085951393,
+   "top10": 0.9894618981755912,
+   "top100": 0.9978265164987157,
+   "median_rank": 1.0
+  },
+  "indep": {
+   "n": 30366,
+   "top1": 0.01880392544292959,
+   "top10": 0.08427188302706975,
+   "top100": 0.29088454192188634,
+   "median_rank": 357.0
+  },
+  "d_seed": {
+   "median": 0.18223802745342255,
+   "p10": 0.10421684384346008,
+   "p90": 0.29606926441192627
+  },
+  "d_indep": {
+   "median": 0.7632704973220825,
+   "p10": 0.42907023429870605,
+   "p90": 0.9794832468032837
+  },
+  "d_nn20": {
+   "median": 0.40707331895828247,
+   "p10": 0.2745663821697235,
+   "p90": 0.5428134202957153
+  },
+  "share_indep_closer_than_nn20": 0.062010142923005995,
+  "nearest_other_place_shares": {
+   "country": 0.6477639465191333,
+   "world_region": 0.7902259105578607,
+   "climate": 0.49433577026938025,
+   "kind": 0.3668247381940328,
+   "metropolis_for_districts": 0.11724626139279709
+  }
+ },
+ "generator": {
+  "seed": {
+   "n": 30366,
+   "top1": 0.8857603899097675,
+   "top10": 0.9725680036883356,
+   "top100": 0.9955542382928275,
+   "median_rank": 1.0
+  },
+  "indep": {
+   "n": 30366,
+   "top1": 0.009813607323980768,
+   "top10": 0.04221827043403807,
+   "top100": 0.15882895343476255,
+   "median_rank": 1624.0
+  },
+  "d_seed": {
+   "median": 0.25616058707237244,
+   "p10": 0.1418386697769165,
+   "p90": 0.4081164002418518
+  },
+  "d_indep": {
+   "median": 0.8704451322555542,
+   "p10": 0.5865539312362671,
+   "p90": 1.0216540098190308
+  },
+  "d_nn20": {
+   "median": 0.4514320492744446,
+   "p10": 0.3271535336971283,
+   "p90": 0.5445501804351807
+  },
+  "share_indep_closer_than_nn20": 0.02657577553843114,
+  "nearest_other_place_shares": {
+   "country": 0.4927879865639202,
+   "world_region": 0.6307383257590726,
+   "climate": 0.40594744121715076,
+   "kind": 0.30208127511032073,
+   "metropolis_for_districts": 0.0696398548800991
+  }
+ },
+ "by_record": [
+  {
+   "record": "town or city",
+   "n": 25043,
+   "no_architecture": 0.05925807610909236,
+   "feature_recurrence": 0.37232435410668857,
+   "image_n": 19065,
+   "image_indep_top1": 0.012536060844479413,
+   "image_indep_top10": 0.062208234985575664,
+   "image_indep_top100": 0.24510883818515605,
+   "image_seed_top1": 0.941253606084448,
+   "image_d_indep": 0.7858339548110962,
+   "image_d_seed": 0.18467473983764648,
+   "generator_n": 19065,
+   "generator_indep_top1": 0.006871230002622607,
+   "generator_indep_top10": 0.03141883031733543,
+   "generator_indep_top100": 0.12782585890375034,
+   "generator_seed_top1": 0.8713873590348806,
+   "generator_d_indep": 0.8862208127975464,
+   "generator_d_seed": 0.26342782378196716
+  },
+  {
+   "record": "metropolitan district",
+   "n": 14957,
+   "no_architecture": 0.04232132112054556,
+   "feature_recurrence": 0.39858548260515936,
+   "image_n": 11301,
+   "image_indep_top1": 0.02937793115653482,
+   "image_indep_top10": 0.12149367312627202,
+   "image_indep_top100": 0.3681090169011592,
+   "image_seed_top1": 0.955756127776303,
+   "image_d_indep": 0.7256547212600708,
+   "image_d_seed": 0.1781749278306961,
+   "generator_n": 11301,
+   "generator_indep_top1": 0.014777453322714804,
+   "generator_indep_top10": 0.06043712945757013,
+   "generator_indep_top100": 0.21113175825148217,
+   "generator_seed_top1": 0.9100079638970002,
+   "generator_d_indep": 0.8379808068275452,
+   "generator_d_seed": 0.24337904155254364
+  }
+ ],
+ "towns_by_population": [
+  {
+   "pop_bin": "10-15k",
+   "n": 6511,
+   "no_architecture": 0.07080325602825986,
+   "feature_recurrence": 0.38138905328740896,
+   "image_n": 4939,
+   "image_indep_top1": 0.010528447054059526,
+   "image_indep_top10": 0.05810892893298238,
+   "image_indep_top100": 0.24498886414253898,
+   "image_seed_top1": 0.9392589593035028,
+   "image_d_indep": 0.7882821559906006,
+   "image_d_seed": 0.18594694137573242,
+   "generator_n": 4939,
+   "generator_indep_top1": 0.006276574205304718,
+   "generator_indep_top10": 0.02530876695687386,
+   "generator_indep_top100": 0.12816359586960924,
+   "generator_seed_top1": 0.8708240534521158,
+   "generator_d_indep": 0.8804908990859985,
+   "generator_d_seed": 0.26708918809890747,
+   "image_indep_top10_ci95": [
+    0.05192120193671278,
+    0.0649835356134446
+   ],
+   "no_architecture_ci95": [
+    0.0648226841990056,
+    0.07728999586983905
+   ]
+  },
+  {
+   "pop_bin": "15-20k",
+   "n": 3617,
+   "no_architecture": 0.06662980370472768,
+   "feature_recurrence": 0.3771468561834307,
+   "image_n": 2790,
+   "image_indep_top1": 0.012903225806451613,
+   "image_indep_top10": 0.06451612903225806,
+   "image_indep_top100": 0.24695340501792115,
+   "image_seed_top1": 0.9390681003584229,
+   "image_d_indep": 0.7833837866783142,
+   "image_d_seed": 0.18602341413497925,
+   "generator_n": 2790,
+   "generator_indep_top1": 0.004301075268817204,
+   "generator_indep_top10": 0.038351254480286735,
+   "generator_indep_top100": 0.13405017921146953,
+   "generator_seed_top1": 0.8648745519713261,
+   "generator_d_indep": 0.882849931716919,
+   "generator_d_seed": 0.26543694734573364,
+   "image_indep_top10_ci95": [
+    0.05598549951488716,
+    0.07424436033113989
+   ],
+   "no_architecture_ci95": [
+    0.05895366646990538,
+    0.07522552546160578
+   ]
+  },
+  {
+   "pop_bin": "20-30k",
+   "n": 4305,
+   "no_architecture": 0.06434378629500581,
+   "feature_recurrence": 0.3795007384052748,
+   "image_n": 3264,
+   "image_indep_top1": 0.011948529411764705,
+   "image_indep_top10": 0.06433823529411764,
+   "image_indep_top100": 0.2555147058823529,
+   "image_seed_top1": 0.9359681372549019,
+   "image_d_indep": 0.7821277976036072,
+   "image_d_seed": 0.18313542008399963,
+   "generator_n": 3264,
+   "generator_indep_top1": 0.008884803921568627,
+   "generator_indep_top10": 0.032475490196078434,
+   "generator_indep_top100": 0.13143382352941177,
+   "generator_seed_top1": 0.8609068627450981,
+   "generator_d_indep": 0.8829832077026367,
+   "generator_d_seed": 0.26463615894317627,
+   "image_indep_top10_ci95": [
+    0.056422419902117826,
+    0.07327835874027412
+   ],
+   "no_architecture_ci95": [
+    0.057395568653403194,
+    0.0720688331013515
+   ]
+  },
+  {
+   "pop_bin": "30-50k",
+   "n": 3658,
+   "no_architecture": 0.059322033898305086,
+   "feature_recurrence": 0.3685294962020857,
+   "image_n": 2752,
+   "image_indep_top1": 0.014171511627906976,
+   "image_indep_top10": 0.06177325581395349,
+   "image_indep_top100": 0.22492732558139536,
+   "image_seed_top1": 0.9425872093023255,
+   "image_d_indep": 0.7951070070266724,
+   "image_d_seed": 0.18853691220283508,
+   "generator_n": 2752,
+   "generator_indep_top1": 0.007267441860465116,
+   "generator_indep_top10": 0.027252906976744186,
+   "generator_indep_top100": 0.11700581395348837,
+   "generator_seed_top1": 0.8688226744186046,
+   "generator_d_indep": 0.8979761600494385,
+   "generator_d_seed": 0.26502400636672974,
+   "image_indep_top10_ci95": [
+    0.05337498764683927,
+    0.07139328640780886
+   ],
+   "no_architecture_ci95": [
+    0.052119097953141236,
+    0.06744959120042565
+   ]
+  },
+  {
+   "pop_bin": "50-100k",
+   "n": 3122,
+   "no_architecture": 0.05445227418321589,
+   "feature_recurrence": 0.35850701885917946,
+   "image_n": 2381,
+   "image_indep_top1": 0.011759764804703907,
+   "image_indep_top10": 0.05753884922301554,
+   "image_indep_top100": 0.23267534649307015,
+   "image_seed_top1": 0.9395212095758085,
+   "image_d_indep": 0.792510986328125,
+   "image_d_seed": 0.18562085926532745,
+   "generator_n": 2381,
+   "generator_indep_top1": 0.007979840403191937,
+   "generator_indep_top10": 0.031499370012599746,
+   "generator_indep_top100": 0.11591768164636708,
+   "generator_seed_top1": 0.875262494750105,
+   "generator_d_indep": 0.8903285264968872,
+   "generator_d_seed": 0.2596193253993988,
+   "image_indep_top10_ci95": [
+    0.04887817066432207,
+    0.06762499667391961
+   ],
+   "no_architecture_ci95": [
+    0.04702634692639986,
+    0.06297334083768902
+   ]
+  },
+  {
+   "pop_bin": "100-250k",
+   "n": 2107,
+   "no_architecture": 0.041765543426673,
+   "feature_recurrence": 0.3520497808066455,
+   "image_n": 1619,
+   "image_indep_top1": 0.013588634959851761,
+   "image_indep_top10": 0.05867819641754169,
+   "image_indep_top100": 0.23162445954292774,
+   "image_seed_top1": 0.9456454601605929,
+   "image_d_indep": 0.7980097532272339,
+   "image_d_seed": 0.18455295264720917,
+   "generator_n": 1619,
+   "generator_indep_top1": 0.004941321803582459,
+   "generator_indep_top10": 0.034589252625077206,
+   "generator_indep_top100": 0.12044471896232242,
+   "generator_seed_top1": 0.8758492896849908,
+   "generator_d_indep": 0.8953939080238342,
+   "generator_d_seed": 0.2635192573070526,
+   "image_indep_top10_ci95": [
+    0.04824055456917368,
+    0.0712052373060161
+   ],
+   "no_architecture_ci95": [
+    0.03402444809778912,
+    0.05117455499178425
+   ]
+  },
+  {
+   "pop_bin": "250-500k",
+   "n": 767,
+   "no_architecture": 0.02607561929595828,
+   "feature_recurrence": 0.3613182265473371,
+   "image_n": 581,
+   "image_indep_top1": 0.010327022375215147,
+   "image_indep_top10": 0.04130808950086059,
+   "image_indep_top100": 0.270223752151463,
+   "image_seed_top1": 0.955249569707401,
+   "image_d_indep": 0.7706423401832581,
+   "image_d_seed": 0.18136285245418549,
+   "generator_n": 581,
+   "generator_indep_top1": 0.0051635111876075735,
+   "generator_indep_top10": 0.024096385542168676,
+   "generator_indep_top100": 0.12564543889845095,
+   "generator_seed_top1": 0.8726333907056799,
+   "generator_d_indep": 0.8933566808700562,
+   "generator_d_seed": 0.2586943805217743,
+   "image_indep_top10_ci95": [
+    0.02791354502179809,
+    0.06072857619529727
+   ],
+   "no_architecture_ci95": [
+    0.016942209600748034,
+    0.039932769642717816
+   ]
+  },
+  {
+   "pop_bin": "0.5-1M",
+   "n": 446,
+   "no_architecture": 0.013452914798206279,
+   "feature_recurrence": 0.3755858093926276,
+   "image_n": 347,
+   "image_indep_top1": 0.01729106628242075,
+   "image_indep_top10": 0.09221902017291066,
+   "image_indep_top100": 0.28530259365994237,
+   "image_seed_top1": 0.9510086455331412,
+   "image_d_indep": 0.7482407689094543,
+   "image_d_seed": 0.17608046531677246,
+   "generator_n": 347,
+   "generator_indep_top1": 0.005763688760806916,
+   "generator_indep_top10": 0.03170028818443804,
+   "generator_indep_top100": 0.1440922190201729,
+   "generator_seed_top1": 0.9164265129682997,
+   "generator_d_indep": 0.8799275755882263,
+   "generator_d_seed": 0.24916128814220428,
+   "image_indep_top10_ci95": [
+    0.06608041257896703,
+    0.12728776268873215
+   ],
+   "no_architecture_ci95": [
+    0.006179701519273813,
+    0.029036250051234554
+   ]
+  },
+  {
+   "pop_bin": "1-2M",
+   "n": 234,
+   "no_architecture": 0.017094017094017096,
+   "feature_recurrence": 0.36145941637208007,
+   "image_n": 183,
+   "image_indep_top1": 0.02185792349726776,
+   "image_indep_top10": 0.09836065573770492,
+   "image_indep_top100": 0.3224043715846995,
+   "image_seed_top1": 0.9562841530054644,
+   "image_d_indep": 0.7495620250701904,
+   "image_d_seed": 0.1631404310464859,
+   "generator_n": 183,
+   "generator_indep_top1": 0.01639344262295082,
+   "generator_indep_top10": 0.03278688524590164,
+   "generator_indep_top100": 0.18579234972677597,
+   "generator_seed_top1": 0.912568306010929,
+   "generator_d_indep": 0.8895374536514282,
+   "generator_d_seed": 0.2516101598739624,
+   "image_indep_top10_ci95": [
+    0.06312566378280364,
+    0.1501116452532997
+   ],
+   "no_architecture_ci95": [
+    0.00666699031790129,
+    0.04312076758483734
+   ]
+  },
+  {
+   "pop_bin": ">2M",
+   "n": 276,
+   "no_architecture": 0.0,
+   "feature_recurrence": 0.38637566137566143,
+   "image_n": 209,
+   "image_indep_top1": 0.03349282296650718,
+   "image_indep_top10": 0.15789473684210525,
+   "image_indep_top100": 0.3684210526315789,
+   "image_seed_top1": 1.0,
+   "image_d_indep": 0.6860383749008179,
+   "image_d_seed": 0.1593605875968933,
+   "generator_n": 209,
+   "generator_indep_top1": 0.019138755980861243,
+   "generator_indep_top10": 0.11483253588516747,
+   "generator_indep_top100": 0.24401913875598086,
+   "generator_seed_top1": 0.9760765550239234,
+   "generator_d_indep": 0.8123258948326111,
+   "generator_d_seed": 0.22762542963027954,
+   "image_indep_top10_ci95": [
+    0.11469324557799278,
+    0.2134456144944743
+   ],
+   "no_architecture_ci95": [
+    0.0,
+    0.013727765993333372
+   ]
+  }
+ ],
+ "population_threshold": {
+  "outcome": "log10 rank of own place for the independent probe, towns and cities, image space",
+  "breakpoint_population": 316227.76601683407,
+  "breakpoint_ci95": [
+   125892.5411794156,
+   670270.3370061043
+  ],
+  "slope_above_per_decade": -0.415767509781404,
+  "n": 19065,
+  "spearman_below_500k": 0.0057827660843303855,
+  "spearman_all_towns": -0.010663014843082371
+ },
+ "population_by_record": {
+  "town or city": {
+   "n": 25043,
+   "mean_centroid_dist": 0.7023226261315071,
+   "mean_local_density": 0.4570475453111099,
+   "log_population": {
+    "local_density": {
+     "slope": -0.0313070013718229,
+     "ci95": [
+      -0.07474620503477825,
+      0.019574757216361975
+     ],
+     "n_groups": 207,
+     "n": 25043
+    },
+    "centroid_dist": {
+     "slope": -0.06253215759068664,
+     "ci95": [
+      -0.07868778881511293,
+      -0.027169584682953163
+     ],
+     "n_groups": 203,
+     "n": 25039
+    },
+    "megacluster_log2size": {
+     "slope": -0.11334648403840235,
+     "ci95": [
+      -0.155312585761958,
+      0.011431358598755798
+     ],
+     "n_groups": 207,
+     "n": 25043
+    },
+    "genericity": {
+     "slope": 0.044696744456065154,
+     "ci95": [
+      -0.014343912185447602,
+      0.05173854324780052
+     ],
+     "n_groups": 207,
+     "n": 25041
+    }
+   },
+   "documentation": {
+    "local_density": {
+     "slope": -0.00844894308007286,
+     "ci95": [
+      -0.013561819037771141,
+      0.036003736039455975
+     ],
+     "n_groups": 207,
+     "n": 25043
+    },
+    "centroid_dist": {
+     "slope": -0.004666711572931436,
+     "ci95": [
+      -0.08697935699020054,
+      0.09173924573302948
+     ],
+     "n_groups": 203,
+     "n": 25039
+    },
+    "megacluster_log2size": {
+     "slope": -0.10029325338018588,
+     "ci95": [
+      -0.14014072029911998,
+      0.013938934779802497
+     ],
+     "n_groups": 207,
+     "n": 25043
+    },
+    "genericity": {
+     "slope": 0.006664898164258014,
+     "ci95": [
+      -0.030498614466059195,
+      0.035489481577383054
+     ],
+     "n_groups": 207,
+     "n": 25041
+    }
+   }
+  },
+  "metropolitan district": {
+   "n": 14957,
+   "mean_centroid_dist": 0.7488080682924758,
+   "mean_local_density": 0.46909445728749255,
+   "log_population": {
+    "local_density": {
+     "slope": -0.03375587483412358,
+     "ci95": [
+      -0.07040071746345136,
+      0.03615929087107388
+     ],
+     "n_groups": 138,
+     "n": 14957
+    },
+    "centroid_dist": {
+     "slope": 0.0525196057152346,
+     "ci95": [
+      -0.0006128458639828489,
+      0.11497391601269458
+     ],
+     "n_groups": 138,
+     "n": 14957
+    },
+    "megacluster_log2size": {
+     "slope": -0.03611527942132664,
+     "ci95": [
+      -0.08349629995572001,
+      0.042480792995841295
+     ],
+     "n_groups": 138,
+     "n": 14957
+    },
+    "genericity": {
+     "slope": -0.030794061344134777,
+     "ci95": [
+      -0.1105447261552701,
+      -0.0052970063763380535
+     ],
+     "n_groups": 138,
+     "n": 14957
+    }
+   },
+   "documentation": {
+    "local_density": {
+     "slope": -0.0081073636569686,
+     "ci95": [
+      -0.04811209878842451,
+      0.05840318416625239
+     ],
+     "n_groups": 138,
+     "n": 14956
+    },
+    "centroid_dist": {
+     "slope": 0.04322784866975724,
+     "ci95": [
+      0.013917032314584344,
+      0.09447137263773142
+     ],
+     "n_groups": 138,
+     "n": 14956
+    },
+    "megacluster_log2size": {
+     "slope": -0.026451546503606573,
+     "ci95": [
+      -0.07824927977044979,
+      0.03959332318965806
+     ],
+     "n_groups": 138,
+     "n": 14956
+    },
+    "genericity": {
+     "slope": -0.02112778763730878,
+     "ci95": [
+      -0.07754920216278953,
+      0.003381939621559051
+     ],
+     "n_groups": 138,
+     "n": 14956
+    }
+   }
+  },
+  "town or city below 500k": {
+   "n": 24087,
+   "mean_centroid_dist": 0.7016284483040319,
+   "mean_local_density": 0.45751523616427814,
+   "log_population": {
+    "local_density": {
+     "slope": -0.02818747282037023,
+     "ci95": [
+      -0.06906406497179148,
+      0.014405713483983696
+     ],
+     "n_groups": 205,
+     "n": 24087
+    },
+    "centroid_dist": {
+     "slope": -0.06380079817361994,
+     "ci95": [
+      -0.0878186223226138,
+      -0.028153482736918346
+     ],
+     "n_groups": 201,
+     "n": 24083
+    }
+   },
+   "documentation": {
+    "local_density": {
+     "slope": -0.007744259251577641,
+     "ci95": [
+      -0.010989418580828685,
+      0.029341147716903507
+     ],
+     "n_groups": 205,
+     "n": 24087
+    },
+    "centroid_dist": {
+     "slope": -0.0030026206077141218,
+     "ci95": [
+      -0.08917165758654903,
+      0.10240346786352714
+     ],
+     "n_groups": 201,
+     "n": 24083
+    }
+   }
+  }
+ }
+}

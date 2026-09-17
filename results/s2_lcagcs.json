@@ -1,0 +1,29 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000
+ },
+ "per_model": {
+  "SD2": {
+   "accuracy": 0.31802835921674544,
+   "balanced_accuracy": 0.0692942995469235,
+   "majority_baseline": 0.10803511141120864,
+   "null_mean": 0.0604372096607073,
+   "null_p975": 0.07359891964888589,
+   "p_value": 0.001,
+   "ci95": [
+    0.29304523970290347,
+    0.3409858203916273
+   ],
+   "n": 1481,
+   "n_classes": 138,
+   "target": "country"
+  },
+  "SD3-Medium": {
+   "n": 0,
+   "skipped": "too few geocoded"
+  }
+ },
+ "n_total": 4520
+}

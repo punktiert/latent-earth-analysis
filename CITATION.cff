@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the dataset."
+title: "Latent Earth: analysis code"
+authors:
+  - family-names: Koehler
+    given-names: Daniel
+    affiliation: "The University of Texas at Austin"
+license: MIT
+type: software
+references:
+  - type: dataset
+    title: "Latent Earth: An Atlas of Architecture in Flux.2"
+    authors:
+      - family-names: Koehler
+        given-names: Daniel
+    year: 2026
+    doi: 10.57967/hf/10090
+preferred-citation:
+  type: article
+  title: "Types, not towns: the architecture a generative image model imagines for real places"
+  authors:
+    - family-names: Koehler
+      given-names: Daniel
+  year: 2026
+  status: submitted

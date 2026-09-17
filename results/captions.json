@@ -1,0 +1,96 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000
+ },
+ "n_places": 39998,
+ "vocab_size": 47202,
+ "top_20_phrases": [
+  {
+   "phrase": "flat roofs",
+   "doc_freq": 7085
+  },
+  {
+   "phrase": "symmetrical facades",
+   "doc_freq": 3921
+  },
+  {
+   "phrase": "low rise buildings",
+   "doc_freq": 3701
+  },
+  {
+   "phrase": "arched doorways",
+   "doc_freq": 3524
+  },
+  {
+   "phrase": "brick walls",
+   "doc_freq": 3405
+  },
+  {
+   "phrase": "symmetrical facade",
+   "doc_freq": 3011
+  },
+  {
+   "phrase": "symmetrical layout",
+   "doc_freq": 2767
+  },
+  {
+   "phrase": "small windows",
+   "doc_freq": 2624
+  },
+  {
+   "phrase": "multi story buildings",
+   "doc_freq": 2346
+  },
+  {
+   "phrase": "red tiled roofs",
+   "doc_freq": 2336
+  },
+  {
+   "phrase": "distant mountains",
+   "doc_freq": 2043
+  },
+  {
+   "phrase": "palm trees",
+   "doc_freq": 1994
+  },
+  {
+   "phrase": "narrow streets",
+   "doc_freq": 1977
+  },
+  {
+   "phrase": "stone walls",
+   "doc_freq": 1961
+  },
+  {
+   "phrase": "distant hills",
+   "doc_freq": 1850
+  },
+  {
+   "phrase": "flat roof",
+   "doc_freq": 1791
+  },
+  {
+   "phrase": "low pitched roofs",
+   "doc_freq": 1755
+  },
+  {
+   "phrase": "open air market stalls",
+   "doc_freq": 1714
+  },
+  {
+   "phrase": "tree lined streets",
+   "doc_freq": 1700
+  },
+  {
+   "phrase": "arched windows",
+   "doc_freq": 1685
+  }
+ ],
+ "genericity_quantiles": {
+  "p5": -2.0574336563027376,
+  "p50": 0.15633662345465843,
+  "p95": 1.3909583638291811
+ }
+}

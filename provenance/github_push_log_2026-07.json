@@ -1,0 +1,147 @@
+{
+ "source": "GitHub REST API, GET /repos/punktiert/DAM-Atlas/activity (server-side push log of the private project repository)",
+ "retrieved": "2026-09-17",
+ "window": "2026-07-12 to 2026-07-18",
+ "events": [
+  {
+   "activity_type": "push",
+   "after": "839a2791cc19ab1f002830c4dc1da1fe1c841aab",
+   "before": "cd3681f7cdf2b1d1ceb3556d6ad02f12f14882a4",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-13T08:57:40Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "d9262b4cd712721cb0a554377f185e90adef162e",
+   "before": "839a2791cc19ab1f002830c4dc1da1fe1c841aab",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-13T11:42:02Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "b784d8bf8304867844cd028b67f17609cb2dc96e",
+   "before": "d9262b4cd712721cb0a554377f185e90adef162e",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-14T06:11:44Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "7aad77ca5f59eea9f082b085724e2317b5a51cb8",
+   "before": "b784d8bf8304867844cd028b67f17609cb2dc96e",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-14T06:33:58Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "8d45f98140cefe7615e2e941791f747f6e764426",
+   "before": "7aad77ca5f59eea9f082b085724e2317b5a51cb8",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-15T16:47:41Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "958f08d57de8242efbd291ea6b426e32353a839c",
+   "before": "8d45f98140cefe7615e2e941791f747f6e764426",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T05:59:21Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "f331ff3d2f8ef62de3b6b2dd284ecca104e4dc52",
+   "before": "958f08d57de8242efbd291ea6b426e32353a839c",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T06:06:20Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "7c66f6147ea33579c55881f1fabca4f08a69af09",
+   "before": "f331ff3d2f8ef62de3b6b2dd284ecca104e4dc52",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T06:41:56Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "159431e5b9cb7125edb2a89dfae16730ca6fe513",
+   "before": "7c66f6147ea33579c55881f1fabca4f08a69af09",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T06:54:57Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "c26b3665b9d6afef8e52b2975d4ed8da6606eb89",
+   "before": "159431e5b9cb7125edb2a89dfae16730ca6fe513",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T07:36:59Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "c2e414194031f4dc9fef9efa66276939af1261ec",
+   "before": "c26b3665b9d6afef8e52b2975d4ed8da6606eb89",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T09:31:35Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "84017e3b9d02799658bf6307e58661e8e28c7011",
+   "before": "c2e414194031f4dc9fef9efa66276939af1261ec",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-16T11:06:02Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "a8206a0f281032361684a90211c9f213e9384f5f",
+   "before": "84017e3b9d02799658bf6307e58661e8e28c7011",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T07:45:50Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "3c6becd28eb17a05e230a74b2dfe12c981adfa99",
+   "before": "a8206a0f281032361684a90211c9f213e9384f5f",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T07:54:20Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "3975fc638f3e41c04cd0614af8230fd1b9ee0bb8",
+   "before": "3c6becd28eb17a05e230a74b2dfe12c981adfa99",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T07:57:28Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "4bd433633c301692ad65ec572ff230f4b34916e4",
+   "before": "3975fc638f3e41c04cd0614af8230fd1b9ee0bb8",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T08:00:39Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "2daf865221b6382fd3cf7497dfb6ada04cd2de73",
+   "before": "4bd433633c301692ad65ec572ff230f4b34916e4",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T08:02:49Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "b176d288b28df2e6fcf4dbfd654b52458ffdc7e2",
+   "before": "2daf865221b6382fd3cf7497dfb6ada04cd2de73",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T08:48:05Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "222fc96624ce83d06e73b52a887e7343d324c36f",
+   "before": "b176d288b28df2e6fcf4dbfd654b52458ffdc7e2",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T08:55:47Z"
+  },
+  {
+   "activity_type": "push",
+   "after": "dfd8f4842d8bbd49e0a370b70e331afcd95e6101",
+   "before": "222fc96624ce83d06e73b52a887e7343d324c36f",
+   "ref": "refs/heads/main",
+   "timestamp": "2026-07-17T11:51:02Z"
+  }
+ ]
+}

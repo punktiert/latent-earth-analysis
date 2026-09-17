@@ -1,0 +1,357 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000,
+  "note": "pre-specified robustness analyses, computed in September 2026"
+ },
+ "weights": "post-stratification (source tables / sample, population band x UN subregion), towns and cities only",
+ "ipf_weighted": {
+  "documentation": {
+   "local_density": {
+    "spearman": {
+     "rho": -0.015370838286709165,
+     "p_value": 0.016,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.00873371668376928,
+     "ci95": [
+      -0.014069263527490057,
+      0.031488166436039224
+     ],
+     "n_groups": 163
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": 0.023059220934374687,
+     "p_value": 0.001,
+     "n": 25039
+    },
+    "within_country": {
+     "slope": -0.003546048051412192,
+     "ci95": [
+      -0.08535659515019796,
+      0.0920906591393482
+     ],
+     "n_groups": 163
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": -0.08555029647584333,
+     "p_value": 0.001,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.10043463291833722,
+     "ci95": [
+      -0.1412650939814658,
+      0.020254479182586133
+     ],
+     "n_groups": 163
+    }
+   },
+   "genericity": {
+    "spearman": {
+     "rho": -0.03807046860498139,
+     "p_value": 0.001,
+     "n": 25041
+    },
+    "within_country": {
+     "slope": 0.006017367602686838,
+     "ci95": [
+      -0.031366682345655136,
+      0.03592891139316569
+     ],
+     "n_groups": 163
+    }
+   }
+  },
+  "log_population": {
+   "local_density": {
+    "spearman": {
+     "rho": -0.008930869383905823,
+     "p_value": 0.182,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.031438588451105066,
+     "ci95": [
+      -0.07476670850480378,
+      0.017990324642767386
+     ],
+     "n_groups": 163
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": -0.0033545919955542103,
+     "p_value": 0.583,
+     "n": 25039
+    },
+    "within_country": {
+     "slope": -0.06141689713805128,
+     "ci95": [
+      -0.07810779750486928,
+      -0.025005351240141978
+     ],
+     "n_groups": 163
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": -0.08722839023707787,
+     "p_value": 0.001,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.1138472678149602,
+     "ci95": [
+      -0.15442128326107143,
+      0.009678717911466865
+     ],
+     "n_groups": 163
+    }
+   },
+   "genericity": {
+    "spearman": {
+     "rho": 0.027698808366000475,
+     "p_value": 0.001,
+     "n": 25041
+    },
+    "within_country": {
+     "slope": 0.04407792545081304,
+     "ci95": [
+      -0.018208800425445214,
+      0.05091311496507013
+     ],
+     "n_groups": 163
+    }
+   }
+  }
+ },
+ "unweighted_towns_and_cities": {
+  "documentation": {
+   "local_density": {
+    "spearman": {
+     "rho": -0.01533008246279295,
+     "p_value": 0.021,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.00844894308007286,
+     "ci95": [
+      -0.013614735584278836,
+      0.03428486475334815
+     ],
+     "n_groups": 163
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": 0.024693341473965832,
+     "p_value": 0.001,
+     "n": 25039
+    },
+    "within_country": {
+     "slope": -0.004666711572931436,
+     "ci95": [
+      -0.08599650378252727,
+      0.09105980975686825
+     ],
+     "n_groups": 163
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": -0.08320474364016665,
+     "p_value": 0.001,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.10029325338018588,
+     "ci95": [
+      -0.14089862832495964,
+      0.01823626365609811
+     ],
+     "n_groups": 163
+    }
+   },
+   "genericity": {
+    "spearman": {
+     "rho": -0.03791116922139852,
+     "p_value": 0.001,
+     "n": 25041
+    },
+    "within_country": {
+     "slope": 0.006664898164258014,
+     "ci95": [
+      -0.031220054010217293,
+      0.03573351419816265
+     ],
+     "n_groups": 163
+    }
+   }
+  },
+  "log_population": {
+   "local_density": {
+    "spearman": {
+     "rho": -0.010052467074277496,
+     "p_value": 0.111,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.0313070013718229,
+     "ci95": [
+      -0.07366790426492974,
+      0.017026132469562468
+     ],
+     "n_groups": 163
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": -0.0023990435729921325,
+     "p_value": 0.686,
+     "n": 25039
+    },
+    "within_country": {
+     "slope": -0.06253215759068664,
+     "ci95": [
+      -0.07902672886039826,
+      -0.02209437913579801
+     ],
+     "n_groups": 163
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": -0.08724371969767644,
+     "p_value": 0.001,
+     "n": 25043
+    },
+    "within_country": {
+     "slope": -0.11334648403840235,
+     "ci95": [
+      -0.15537292666449382,
+      0.009325995561810373
+     ],
+     "n_groups": 163
+    }
+   },
+   "genericity": {
+    "spearman": {
+     "rho": 0.026712112385137543,
+     "p_value": 0.001,
+     "n": 25041
+    },
+    "within_country": {
+     "slope": 0.044696744456065154,
+     "ci95": [
+      -0.006205347663831224,
+      0.051886253174149514
+     ],
+     "n_groups": 163
+    }
+   }
+  }
+ },
+ "generator_state_only": {
+  "documentation": {
+   "local_density": {
+    "spearman": {
+     "rho": 0.043550099974041315,
+     "p_value": 0.001,
+     "n": 39999
+    },
+    "within_country": {
+     "slope": -0.0023896721362805413,
+     "ci95": [
+      -0.02065734136126745,
+      0.025266801028206692
+     ],
+     "n_groups": 165
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": 0.021042840304097032,
+     "p_value": 0.001,
+     "n": 39995
+    },
+    "within_country": {
+     "slope": -0.012282176472122947,
+     "ci95": [
+      -0.06693992935670459,
+      0.07395001188772728
+     ],
+     "n_groups": 165
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": 0.0005392531842443851,
+     "p_value": 0.92,
+     "n": 39999
+    },
+    "within_country": {
+     "slope": -0.020967112164308622,
+     "ci95": [
+      -0.08412689572821973,
+      0.01643998638958917
+     ],
+     "n_groups": 165
+    }
+   }
+  },
+  "log_population": {
+   "local_density": {
+    "spearman": {
+     "rho": 0.04478160043689731,
+     "p_value": 0.001,
+     "n": 40000
+    },
+    "within_country": {
+     "slope": 0.06094687904132962,
+     "ci95": [
+      -0.002746529076859954,
+      0.13528501901955553
+     ],
+     "n_groups": 165
+    }
+   },
+   "centroid_dist": {
+    "spearman": {
+     "rho": 0.1446906510664012,
+     "p_value": 0.001,
+     "n": 39996
+    },
+    "within_country": {
+     "slope": 0.0923373744037432,
+     "ci95": [
+      -0.0028031817486791405,
+      0.24766245285131913
+     ],
+     "n_groups": 165
+    }
+   },
+   "megacluster_log2size": {
+    "spearman": {
+     "rho": 0.018448332282530393,
+     "p_value": 0.001,
+     "n": 40000
+    },
+    "within_country": {
+     "slope": -0.0059846675722222305,
+     "ci95": [
+      -0.061853107760436316,
+      0.13449818931202354
+     ],
+     "n_groups": 165
+    }
+   }
+  }
+ }
+}

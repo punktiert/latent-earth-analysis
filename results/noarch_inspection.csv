@@ -1,0 +1,204 @@
+idx,place_id,name,class,literal_reading
+0,0001e784-e294-5cb4-9a80-155b16f4c156,"Bayanaūyl, Kazakhstan",landscape without buildings,
+1,0007182a-47d8-5850-9ab7-f779b3238773,"Anontsibe-Sakalava, Toliara, Madagascar",landscape without buildings,
+2,001a9da9-36b9-5434-81eb-8e370cddcdda,"Solnechnyy, Irkutsk, Russia",landscape without buildings,
+3,0058ea84-1d46-5454-b7f9-c2cd1b50409c,"Mizdah, Al Jabal al Gharbī, Libya",landscape without buildings,
+4,006fd1fd-c3cf-5a0c-9a75-ae997e08c773,"Espinho, Aveiro, Portugal","object, plant or animal",espinho = thorn
+5,00cad0fa-7da1-579c-8f12-84c74ca055cd,"Ski, Viken, Norway",landscape without buildings,ski
+6,00defb34-b8df-52b7-83fd-257bddf7c541,"Bharra, Bihār, India",landscape without buildings,
+7,012dccb6-2e2e-5864-a66c-e39fc7ac03b7,"North Fayette, Pennsylvania, United States","map, plan or logo",
+8,0130a88d-c57e-560b-8e45-7157eb094a4e,"Vempalle, Andhra Pradesh, India",landscape without buildings,
+9,0150dca1-838d-5cd6-b11c-14522e9642eb,"Belovodskoe, Chüy, Kyrgyzstan",landscape without buildings,
+10,015ea48a-61bd-565a-ba42-f0e3cf42178f,"Bhagwatpur, Bihār, India",landscape without buildings,
+11,01762a5e-2993-5599-ac0f-49f2f2ca7067,"Lambton Shores, Ontario, Canada",landscape without buildings,
+12,01b20704-045a-5afd-b9bf-acb46e1d4b4d,"Anekal, Karnātaka, India",landscape without buildings,
+13,01c6816c-94a2-58d2-acd5-4c390295a5f5,"Harat Mohd Ibn Khalifa, Al `Ayn, United Arab Emirates",landscape without buildings,
+14,01c9853a-f2b0-55f0-a04e-9c9535664100,"Jabonera, Mexicali, Mexico","object, plant or animal",jabonera = soap dish
+15,02078e08-944d-57e9-9c7d-e65b793f1b96,"Waimalu, Hawaii, United States",landscape without buildings,
+16,0224673d-eae1-502a-8746-6a67c82955a5,"Athār, Bihār, India",landscape without buildings,
+17,022f7941-3b08-510a-a8e2-f4713cdd8fff,"Los Llanos, Higuamo, Dominican Republic",landscape without buildings,
+18,0236c282-f52d-5cc6-aba9-febe3142f103,"Mount Hagen, Western Highlands, Papua New Guinea",landscape without buildings,
+19,0253a2be-2e23-5e8e-8bb7-2868f0894950,"Gantt, South Carolina, United States","map, plan or logo",Gantt chart
+20,026643cf-b6f2-589c-98f2-0d330a17f6f5,"Ciénaga, Magdalena, Colombia",landscape without buildings,
+21,02731cd9-db94-51d7-9ff6-e90a0f83b5de,"Itaeté, Bahia, Brazil",landscape without buildings,
+22,0292f110-f3ed-5cd4-a04b-0da9a95fc6ca,"Polavaram, Andhra Pradesh, India",landscape without buildings,
+23,02b6eb01-53a4-5abd-a42a-1e3fb2fb636a,"Beaconsfield, Kimberley, South Africa",landscape without buildings,
+24,02c7e483-3746-54fb-ae97-088bc647e505,"Aala, Honolulu, United States",landscape without buildings,
+25,02cca18c-68b9-5aaf-a548-6a7ac5cb7206,"Roberto Luis Petit, Asuncion, Paraguay",portrait or person,
+26,02daab81-e1b9-5ab0-a19a-484163b555a2,"Igarapé, Minas Gerais, Brazil",landscape without buildings,
+27,02de5963-3d2c-5437-8d55-6d4a0b7d4684,"Rybnoye, Ryazanskaya Oblast’, Russia",landscape without buildings,
+28,03173e8d-b64c-5c95-b588-9daed7d46e5e,"Sakae, Nagoya, Japan",food,
+29,0329b967-ceaf-5332-9a99-1a9854ad6d01,"Fuxing, Changhua, Taiwan","object, plant or animal",Fuxing = a train
+30,0329d9a3-430d-5eea-84e6-df0ba77e4cff,"Ozerishche, Minsk, Belarus",food,
+31,035a7adf-e3ed-5850-a033-10430fec8b3e,"Samaz Qand, Mashhad, Iran",food,qand = sugar
+32,037f3505-693a-55f0-962a-f2ebaeebae06,"East Newton North, Surrey, Canada",landscape without buildings,
+33,038420bc-c306-597e-bdcb-012d63dfc1c6,"Staßfurt, Saxony-Anhalt, Germany",landscape without buildings,
+34,0390a98d-3a06-5a26-aec8-e6df77ec389e,"Kindu, Maniema, Congo (Kinshasa)",landscape without buildings,
+35,03ccaff6-54e1-5f2c-8eb2-09699ba8f8f2,"Ed Daein, East Darfur, Sudan","map, plan or logo",
+36,03f99f02-9fe7-5c9a-8f2f-1f81b7ba0a10,"Guogouzi, Changhua, Taiwan",food,
+37,04021a43-8127-5d8d-accc-e5668c65665f,"Mansudong, Bucheon, South Korea",food,
+38,0408915f-a69b-55b5-9344-4ed9812d00a7,"Pochayna, Kyiv, Ukraine",landscape without buildings,
+39,041c94d9-0b2b-58ee-98b3-53ea295af6ca,"Drazhnya, Minsk, Belarus",landscape without buildings,
+40,04321679-590e-5166-8f5e-7f3580ca1f2e,"Marmeleiro, Paraná, Brazil",landscape without buildings,marmeleiro = quince tree
+41,046a6cbd-6c9f-57a9-a2a3-31ae889eee27,"Placilla de Peñuelas, Valparaíso, Chile",landscape without buildings,
+42,0472cb1c-e424-5d9f-b82c-37b0ce17c7cc,"Makhmālpur, Jhārkhand, India","object, plant or animal",makhmal = velvet
+43,048bb664-84d0-5769-a842-1c9a80921bf8,"Half Moon Bay, California, United States",landscape without buildings,
+44,0495016b-acc5-519e-8e52-56d3ed127709,"As Sabkhah, Dubai, United Arab Emirates",landscape without buildings,
+45,0495c75c-521e-5b20-ba53-b49c3bc894e8,"East Newton South, Surrey, Canada",landscape without buildings,
+46,04c5e40e-2559-51ca-aa5d-c6225c574dbc,"Baradero, Buenos Aires, Argentina",landscape without buildings,
+47,04d3428d-6126-521c-9454-4c22e307d351,"Arzgir, Stavropol’skiy Kray, Russia",landscape without buildings,
+48,0503717e-d6a2-5a09-bc32-5214eab81318,"Little Elm, Texas, United States",landscape without buildings,
+49,0507e441-859d-5eda-9f3e-cabe7cec00c9,"Borovoye, Voronezh, Russia",landscape without buildings,
+50,050ceb4c-5e48-5947-a462-c00f7153948b,"Palmeirais, Piauí, Brazil",landscape without buildings,palmeirais = palm groves
+51,0520a767-9f17-56cb-b25f-e9769316bf8e,"Kyazanga, Lwengo, Uganda",landscape without buildings,
+52,053dd43d-0734-5492-be57-5f4867b2b958,"Do Sisal, Joao Pessoa, Brazil","object, plant or animal",sisal
+53,054f72a8-c0db-50d1-8f5a-59f7bbbb9cc4,"Montgomery, Ohio, United States","map, plan or logo",
+54,057574a8-7c96-5a41-ae4c-e412e3d2de1d,"Rumphi, Malawi",landscape without buildings,
+55,05871800-1c30-5224-8540-55afede23c5c,"Victor Hugo, Oran, Algeria",portrait or person,Victor Hugo
+56,05994286-e474-5eb0-bf74-f895999b102f,"Matheu, Rosario, Argentina",portrait or person,
+57,05bce4bc-f96b-5c54-a805-19654b9b7818,"Bologoye, Tverskaya Oblast’, Russia",landscape without buildings,
+58,05f48eda-806a-5ec5-bb5f-bca89dbdd9ee,"Guácimo, Limón, Costa Rica",landscape without buildings,
+59,062247bf-0c46-5c77-9a61-b629e6ec0cdf,"South Elgin, Illinois, United States","map, plan or logo",
+60,0681fa09-17b1-5d63-80fd-939b3ea31acc,"Bozoum, Ouham-Pendé, Central African Republic","map, plan or logo",
+61,0699b047-7d89-5a6b-bba1-788403be1959,"Adolfo Lopez Mateos, Naucalpan de Juarez, Mexico",portrait or person,
+62,06bb3ba7-426a-5742-b4e8-de132b935127,"Kotoni, Sapporo, Japan",food,
+63,06f7fae4-58bf-5537-a9e0-877655531549,"Caracol, Monterrey, Mexico","object, plant or animal",caracol = snail
+64,070722ae-34c9-5205-8da1-b679428f89d6,"Eshtehārd, Alborz, Iran",landscape without buildings,
+65,073391fc-37cd-5f04-8184-560290240fa0,"Viedma, Río Negro, Argentina",landscape without buildings,Viedma glacier
+66,074b943e-b3ff-52ef-aab1-5d58cbb96300,"‘Ajab Shīr, Āz̄arbāyjān-e Sharqī, Iran",food,shir = milk
+67,076de51a-e86f-5249-804c-362c3e9c423e,"Anthem, Arizona, United States",landscape without buildings,
+68,07742cbe-a860-5e98-8f9f-b31abf812b8f,"De Aar, Northern Cape, South Africa",landscape without buildings,
+69,077ea024-11fa-584f-83f5-4f5313909731,"Bakchondong, Bucheon, South Korea",food,
+70,07a1062e-3f1e-574a-b87d-93b2ebed320a,"Dolton, Illinois, United States","map, plan or logo",
+71,07b86b75-b46d-5c17-8926-19ad32481ae2,"Chulym, Novosibirskaya Oblast’, Russia",landscape without buildings,
+72,07daabce-5239-5a83-a5bb-b959a2986a20,"Kotmale, Central, Sri Lanka",landscape without buildings,
+73,07fa48db-deb5-566d-82bf-3e54ce0e4733,"Lagoa Sêca, Paraíba, Brazil",landscape without buildings,lagoa = lagoon
+74,0839f32c-f8d1-5437-9b30-7df9327151df,"Colinas do Tocantins, Tocantins, Brazil",landscape without buildings,colinas = hills
+75,0881d55c-dc31-5169-a29c-4fe839f562d6,"Kanasugidai, Honcho, Japan",landscape without buildings,
+76,089064d2-eb6e-5dfd-ba67-270ef3f0e5f8,"Sidéradougou, Cascades, Burkina Faso",landscape without buildings,
+77,089792b7-b70b-5458-b31f-25b168bb304f,"Mbaïki, Lobaye, Central African Republic","map, plan or logo",
+78,089c56a3-1454-5506-b97e-59d334894e24,"Forest Fields, Nottingham, United Kingdom",landscape without buildings,forest fields
+79,08bdd4b7-5fab-53e4-a46b-7c497a1588ec,"Cibolo, Texas, United States","map, plan or logo",
+80,09077572-7083-5912-8724-d07df96067d9,"Gjorce Petro, Skopje, Macedonia",portrait or person,
+81,0909938a-edb3-5ee6-a231-c199f9060f90,"Azukimochi, Hamamatsu, Japan",food,azuki = red bean
+82,091d7943-c44e-5d16-acca-c789de8815ba,"Karpos Dva, Skopje, Macedonia",food,
+83,092e0470-97f3-579f-8845-1884ec7c4bb5,"Saynshand, Dornogovĭ, Mongolia",landscape without buildings,
+84,093c3432-f0ae-5373-bad8-21f373b615e5,"Eifuku, Suginami-ku, Japan",food,
+85,0989ac6c-6548-5503-85be-797ffb00e6ed,"Marofinaritra, Antsiranana, Madagascar",landscape without buildings,
+86,098abde5-bedb-53a6-b564-92795f8be814,"Powell River, British Columbia, Canada",landscape without buildings,
+87,09dbbedb-1240-5fb9-817b-bd14c9d9ede4,"Nopala de Villagran, Hidalgo, Mexico","object, plant or animal",nopal = cactus
+88,09e64439-d021-5c53-accc-05e5dfd39ec6,"Columbia, Maryland, United States","map, plan or logo",
+89,09ed4591-9109-5a82-8f52-8d0b6eeda239,"Nambuangongo, Bengo, Angola",landscape without buildings,
+90,09f6d1ed-ed70-54f3-a4fa-1a2d7a84f610,"Virei, Namibe, Angola",landscape without buildings,
+91,0a1fa6d6-ff41-5cad-ae20-495c7df76b9f,"Kushal Kun, Meerut, India",portrait or person,
+92,0a9a888b-303f-51b7-954a-3a3069a374f0,"Fresia, Concepcion, Chile","object, plant or animal",fresia = freesia
+93,0aabbc91-b41f-5576-ab5a-52c485d0de90,"Bagu Na Mohra, Punjab, Pakistan",food,
+94,0ad6427e-7450-5bb2-b339-0cea2781ea4a,"Lakkavaram, Andhra Pradesh, India",landscape without buildings,
+95,0ae37513-9236-5839-a64a-bd8661fe384d,"Arroyo Hondo, Santo Domingo, Dominican Republic",landscape without buildings,arroyo = stream
+96,0b16a4c7-455d-54b0-9ed6-4c4123520cc2,"Tres Isletas, Chaco, Argentina",landscape without buildings,
+97,0b4e9868-e9a2-5b0d-bee8-a8ca4946c100,"Moss, Viken, Norway",landscape without buildings,moss
+98,0b6e31c4-2f94-506e-9021-a430de10ea40,"Losino-Petrovskiy, Moskovskaya Oblast’, Russia",landscape without buildings,
+99,0b9770f9-d2b9-50ae-947b-d851605225cd,"Dumaran, Palawan, Philippines",landscape without buildings,
+100,0b9a094d-dc07-5942-927c-619f74e49d5d,"Beanana, Toamasina, Madagascar","object, plant or animal",banana
+101,0ba9f053-ad0d-5d53-a2c2-856a265e0624,"Matagob, Leyte, Philippines",landscape without buildings,
+102,0badea50-301c-5f55-9573-0cd98d99845b,"Rose Belle, Grand Port, Mauritius","object, plant or animal",rose
+103,0bb19885-b31f-58ce-b97b-b51a21a094d4,"Gabasumdo, Qinghai, China",landscape without buildings,
+104,0bc55e81-b39d-55c2-a980-609ee9ddcf9f,"Derbisek, Kazakhstan",landscape without buildings,
+105,0bd27839-9657-57ee-bd09-b61ebf8619f7,"Rengo, Libertador General Bernardo O’Higgins, Chile",portrait or person,General O'Higgins
+106,0bf1f0a0-a24a-5a64-ad00-8ffb9e12cadb,"Livingstone, Southern, Zambia",landscape without buildings,
+107,0c017ee1-f48f-5e67-a4a5-8c5ae70dbc31,"Kuy-e Karmandan-e Jonubi, Karaj, Iran",landscape without buildings,
+108,0c0ac328-a576-596c-91ac-dfa382ba5885,"Rosso, Trarza, Mauritania",landscape without buildings,rosso = red
+109,0c0b7aed-92ef-56a5-af27-bd493dfd82cd,"Vaquinha, Contagem, Brazil","object, plant or animal",vaquinha = little cow
+110,0c85659f-6e17-5c96-9c2f-1421b2ae5de4,"E’erguna, Inner Mongolia, China",landscape without buildings,
+111,0c9d7263-04d8-596a-a57f-63a7afe1125a,"Henry Farm, Toronto, Canada",landscape without buildings,
+112,0cb4054b-33d7-5146-b831-2dfa9a0fabce,"Kazim Orbay, Cankaya, Turkey",portrait or person,
+113,0d1ea543-00ca-5411-bab2-f063192ba5e8,"Puerto Ayora, Galápagos, Ecuador",landscape without buildings,
+114,0d39e6e9-3f40-54bf-8140-81e85cda5fd3,"McCully - Moiliili, Honolulu, United States",food,
+115,0d47554c-58ef-5bf6-ac86-962b63b1981c,"Kamianka-Dniprovska, Zaporizka Oblast, Ukraine",landscape without buildings,
+116,0d82ae12-9c80-5eaf-ab9a-918dc2f4b3bb,"Gualcince, Lempira, Honduras","object, plant or animal",
+117,0d8dd7a4-d185-5b39-a86a-fa1a1db6a867,"Fern Down, Dorset, United Kingdom",landscape without buildings,fern
+118,0d99b88c-147c-5d6f-92c1-fe7fa1224ba9,"Hoffman Estates, Illinois, United States","map, plan or logo",
+119,0daa6d8c-6646-561e-a86a-15cdc2a5add8,"Ambatomarina, Fianarantsoa, Madagascar",landscape without buildings,
+120,0dd591d1-79de-5e45-be8b-0051a44a7323,"Kabinda, Lomami, Congo (Kinshasa)",landscape without buildings,
+121,0de8e73a-8822-55a9-a922-010e20755ca5,"Sakleshpur, Karnātaka, India",landscape without buildings,
+122,0e104449-7197-58e1-9e44-8983c77e886e,"Cooperativa Aguirre Abad, Guayaquil, Ecuador","map, plan or logo",
+123,0e22bef5-be3f-5d05-a9b5-88cc05fe01e8,"Fanjā’, Ad Dākhilīyah, Oman",landscape without buildings,
+124,0e30f965-6e84-50a2-a9f9-750773ecce5c,"Botan, Koto-ku, Japan",landscape without buildings,
+125,0e5151c6-cd2c-5d27-9402-18b475dc0a9b,"Mesa, Arizona, United States",landscape without buildings,mesa
+126,0e5f5b04-daf5-5a4b-903f-506187c54ea2,"Mansa, Luapula, Zambia","map, plan or logo",
+127,0e7536c2-54a1-5585-9c6c-482122e233a7,"Cottonwood, Arizona, United States",landscape without buildings,cottonwood
+128,0e870587-3b51-5b75-9f9f-3acc675a6f0b,"Mure, Suginami-ku, Japan",food,
+129,0e8aab48-c2cc-516a-a6a2-8786f271f0ef,"Cinco Ranch, Texas, United States",landscape without buildings,
+130,0f01639a-9b23-53d0-bced-a96914f2199f,"Hoveyzeh, Khūzestān, Iran",landscape without buildings,
+131,0f3a7f8f-aada-5217-81b2-18c79fe8806f,"Obere Au, Munich, Germany",landscape without buildings,Au = river meadow
+132,0f42ac35-dd17-5e90-9725-08127701a91b,"Mongu, Western, Zambia",landscape without buildings,
+133,0f6689d6-eee9-5c5e-aa51-41a6d43f20fd,"Idylwood, Virginia, United States",landscape without buildings,
+134,0fb42a03-473c-5240-8076-5179f3547031,"Potrerito de Los Becerros, Tonala, Mexico","object, plant or animal",becerros = calves
+135,0fc2f46e-2888-5a5b-8651-0438c7b77836,"Agueita de la Perdiz, Concepcion, Chile",landscape without buildings,
+136,0fcfbd76-6eec-5091-9434-ae663436f452,"Presidentes, Chimalhuacan, Mexico",portrait or person,presidentes
+137,10d05649-c0fd-5c69-a963-a1de5160778f,"Say’ūn, Ḩaḑramawt, Yemen",landscape without buildings,
+138,10fea030-e461-51da-b6c6-df4e0c060ccc,"Bobonong, Central, Botswana",landscape without buildings,
+139,1126b5de-7a82-5220-bdd5-60bdd7770165,"Odenton, Maryland, United States","map, plan or logo",
+140,1164c357-acbb-5626-8f82-5ab3d2630d1f,"Ullāl, Karnātaka, India",food,
+141,11fbc015-a1f3-5e2e-aa6d-1ee3c9ad7639,"Miguel Negrete, Puebla, Mexico",portrait or person,
+142,11fc3f16-f770-5784-bd72-298ce9d6dd57,"Ramu, Mandera, Kenya",portrait or person,
+143,124331d1-1fe6-51aa-a4c4-1b221b063c1d,"Englischer Garten Sued, Munich, Germany",landscape without buildings,Englischer Garten
+144,1265ebef-4688-5226-b9db-6f54c503227d,"Lumphat, Ratanakiri, Cambodia",landscape without buildings,
+145,12935305-bf33-54d7-96ed-0f40d576f7a9,"Ianantsony, Toliara, Madagascar",landscape without buildings,
+146,129859c1-a11e-5938-9ede-8dc749b989df,"Voi, Taita/Taveta, Kenya",landscape without buildings,
+147,12aa1506-04fd-5733-b8eb-f577ce36cb90,"Ebelo, Toliara, Madagascar",landscape without buildings,
+148,12b650a1-038d-5789-bc1c-14d478efa6c8,"East Brunswick, New Jersey, United States","map, plan or logo",
+149,12ecabbe-a7a8-5677-a7ec-12ba5fb173b3,"Beforona, Toamasina, Madagascar",landscape without buildings,
+150,132d8749-ca86-5394-820e-e4402740ea03,"Essen, North Rhine-Westphalia, Germany",food,Essen = meal
+151,13557c3d-d55a-5945-b9ee-a4cc49697446,"Dīvāndarreh, Kordestān, Iran",landscape without buildings,
+152,135af0f7-1724-51d6-a840-00b525593d47,"Ron, Karnātaka, India",portrait or person,
+153,137e6788-80c3-5262-92c0-a6f1f488f605,"Guerrero Negro, Baja California Sur, Mexico",landscape without buildings,
+154,1388b3ef-076f-55c6-bd10-5fbf701d3c28,"Batarasa, Palawan, Philippines",landscape without buildings,
+155,138e4598-784c-571e-903a-4068b10d45d5,"Déressia, Tandjilé, Chad","map, plan or logo",
+156,13c302c7-5d08-5ad2-b8b4-fb57ddf5debe,"Giddarbāha, Punjab, India",landscape without buildings,
+157,13c576c0-e389-5014-81e1-8398bb3421a2,"Sputnik Mira, Homyel', Belarus","object, plant or animal",Sputnik
+158,14085e66-7309-537d-80ed-9553940c3cd1,"Spanish Lake, Missouri, United States",landscape without buildings,lake
+159,14334565-5187-5c74-bdc8-2fb04b800365,"Bimo, Ombella-Mpoko, Central African Republic",portrait or person,
+160,1435bc4f-f3b3-5a09-a3b0-8b8c3da24c95,"HayyadDubbat, Al Hillah, Iraq","object, plant or animal",
+161,1467664a-0b22-5a87-884f-21dd6f9cb17f,"South Plainfield, New Jersey, United States","map, plan or logo",
+162,146a4595-723e-5be1-95f5-d740876981fa,"Lye, Dudley, United Kingdom",landscape without buildings,
+163,1476b821-b7d1-5264-a6a5-0df36a204b22,"Mill Creek Ravine South, Edmonton, Canada",landscape without buildings,creek ravine
+164,14a72e63-193f-5d0a-9a45-cb26d49a07f2,"Chernigovka, Primorskiy Kray, Russia",landscape without buildings,
+165,14a9f710-1a94-5f27-9d0e-648a2d214e65,"Plan del Rosario, Tonala, Mexico","map, plan or logo",plan
+166,14c185d5-7cc8-513d-8cdb-dbcc46c4fa27,"Catriel, Río Negro, Argentina",landscape without buildings,
+167,14e19643-7c05-57fa-8b14-dc449cf19124,"Jaboticatubas, Minas Gerais, Brazil",landscape without buildings,
+168,15144c6d-f74d-5fdb-868c-9201c2752a61,"Salgado de São Félix, Paraíba, Brazil",landscape without buildings,
+169,152c0b55-0ed5-53ad-8dfa-44c0365c970b,"Tsutsujigaoka, Sendai, Japan",landscape without buildings,tsutsuji = azalea
+170,15522f77-2786-5e1a-a255-214170d91cca,"Monterey, California, United States",landscape without buildings,
+171,15606c48-6dcd-5b1e-918b-985e09cf20c1,"Assigame, Lome, Togo","map, plan or logo",
+172,1580dbd7-5b17-530c-802d-e23ed06f1c81,"Zhulin, Changhua, Taiwan",landscape without buildings,
+173,15c493e3-4165-5bd5-bd25-8201bc27dd1a,"Coll d'en Rabassa, Palma, Spain",landscape without buildings,
+174,15c4d4f8-0e30-5fc4-a08c-3d82e2a50e8f,"Ashley Park, Raleigh, United States",portrait or person,Ashley
+175,15d243c9-95b3-58f7-9bff-826b8cb0d13a,"Río Verde Arriba, Cibao Sur, Dominican Republic",landscape without buildings,
+176,163fac6f-f085-5831-ae57-846ef529022f,"Lagoa do Itaenga, Pernambuco, Brazil",landscape without buildings,lagoa = lagoon
+177,168e7c97-d95b-5f2f-8b64-7d2dbfdfd4ab,"Nunspeet, Gelderland, Netherlands",landscape without buildings,
+178,169357cb-8384-5463-b381-d8394e0af481,"Ogōshi, Kumamoto, Japan",food,
+179,16999c76-4d01-5cf8-a377-4bc185ee65b8,"Plodopitomnik, Heihe, China","object, plant or animal",
+180,16a470a1-fdba-51fb-a452-20af1256526e,"Stadtbezirk 04, Dusseldorf, Germany","map, plan or logo",
+181,16ab24c4-595f-51ee-ae54-8a4ff375cb08,"Gangbengshan, Leping, China",landscape without buildings,
+182,17294d48-d8eb-563b-a272-52882658313e,"Pānskura, West Bengal, India",landscape without buildings,
+183,17519854-6faf-5b1f-b401-f19de6b2bd91,"Silverdale, Washington, United States",landscape without buildings,
+184,17578c7a-1c4d-5a00-a6ad-e3889182ba1b,"Hybla Valley, Virginia, United States",landscape without buildings,
+185,1762d078-9e23-5bff-ab75-917e94e819a1,"Al Ghayz̧ah, Al Mahrah, Yemen",landscape without buildings,
+186,17715b05-660d-535e-bab0-c635d81baead,"Periya Soragai, Tamil Nādu, India","object, plant or animal",
+187,17795386-ecf8-5222-8bdf-084bf5d72ccf,"Malay, Aklan, Philippines",landscape without buildings,
+188,17929992-3fdd-52e3-bba2-5a80320d84d0,"Jardim Sao Vicente, Iguacu, Brazil",landscape without buildings,jardim = garden
+189,181b75c0-0135-5d04-98ba-0057903375a1,"Kaspiyskiy, Kalmykiya, Russia",landscape without buildings,Caspian
+190,18340f0d-4fe6-56fd-8667-3207006bd707,"Thamaga, Kweneng, Botswana",landscape without buildings,
+191,18538cf4-928d-544a-b393-aaca87d625d5,"Travancore, Melbourne, Australia",food,
+192,1878b452-b63d-5a07-93cb-6eace770ad02,"Maple Heights, Akron, United States","map, plan or logo",
+193,18b3b072-980b-5726-9cf1-4fd50582b31c,"Bheja, Bihār, India",food,
+194,18e74ea0-29be-5d37-8903-dffb96e3a1c4,"Huangluchong, Rongcheng, China",landscape without buildings,
+195,18eb1c8f-1771-5576-b215-f195d02478a4,"Seltso, Bryanskaya Oblast’, Russia",landscape without buildings,
+196,18eb34e1-8861-5195-9294-991a9c25ac74,"Gaura, Bihār, India",landscape without buildings,"gaura, a flower"
+197,18f5a2d0-2896-5769-8178-ee9f867c443f,"Rochester, Michigan, United States","map, plan or logo",
+198,191129de-20c9-5ad0-bdce-7cdc48b709b0,"Río Negro, Los Lagos, Chile",landscape without buildings,
+199,19179f81-e83a-5a3e-b58f-3a8105132d5e,"El Palomar, Buenos Aires, Argentina",food,
+200,191d5244-f1ff-5aea-9e64-6c3b78f799bc,"Terenos, Mato Grosso do Sul, Brazil",landscape without buildings,
+201,193888bc-a83d-5dfb-9e6e-280ba7834ce9,"Kerben, Jalal-Abad, Kyrgyzstan",landscape without buildings,
+202,193ea9bd-b1c2-52c4-a58b-9aa4ce3c93d9,"Mushie, Mai-Ndombe, Congo (Kinshasa)","object, plant or animal",mushrooms

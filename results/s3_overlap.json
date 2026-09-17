@@ -1,0 +1,13 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000
+ },
+ "n": 40000,
+ "stable_threshold": 0.3,
+ "acc_stable": 0.7813679401443422,
+ "acc_unstable": 0.8157034919338371,
+ "share_stable": 0.75515,
+ "phi": -0.03623404563620471
+}

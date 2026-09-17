@@ -1,0 +1,515 @@
+{
+ "features": "analysis_features.npy",
+ "n_places": 40000,
+ "k_nn": 10,
+ "type_graph": {
+  "closure_median": 0.7869799164419111,
+  "closure_min": 0.5190817790530846,
+  "closure_max": 0.9651315789473685,
+  "closure_of_places": 0.770235,
+  "n_edges": 111,
+  "degree_median": 3.0,
+  "degree_max": 8,
+  "connected": false,
+  "n_components": 3,
+  "diameter_hops": null,
+  "mean_path_hops": null,
+  "modularity": 0.7320396952972524,
+  "n_families": 10,
+  "families": [
+   {
+    "family": 0,
+    "n_types": 13,
+    "n_places": 9845,
+    "top_regions": [
+     [
+      "Southern Asia",
+      0.3882173692229558
+     ],
+     [
+      "South-eastern Asia",
+      0.195733875063484
+     ],
+     [
+      "Eastern Africa",
+      0.08643981716607414
+     ]
+    ],
+    "types": [
+     "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+     "brick walls (90%), flat roofs (65%), uneven ground level (48%)",
+     "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+     "wooden beams (77%), thatched roofs (53%), palm trees (51%)",
+     "thatched roofs (60%), mud-brick walls (54%), earthy tones (42%)",
+     "open-air market stalls (60%), narrow streets (64%), utility poles (35%)",
+     "domed roof (68%), arched doorways (82%), open courtyard (38%)",
+     "sparse vegetation (41%), dry landscape (30%), none visible (24%)",
+     "corrugated metal roofs (70%), earth-toned walls (87%), dirt ground (50%)",
+     "beachfront (63%), palm trees (57%), sandy beach (42%)",
+     "no architectural content visible (63%), none visible (36%), dense forest canopy (1%)",
+     "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+     "corrugated metal roofs (78%), open-air market stalls (65%), colorful signage (33%)"
+    ]
+   },
+   {
+    "family": 1,
+    "n_types": 9,
+    "n_places": 5537,
+    "top_regions": [
+     [
+      "Northern America",
+      0.6575763048582265
+     ],
+     [
+      "Central America",
+      0.0711576666064656
+     ],
+     [
+      "South America",
+      0.055445186924327254
+     ]
+    ],
+    "types": [
+     "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+     "high ceilings (24%), corrugated metal roof (29%), glass storefront (22%)",
+     "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+     "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+     "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+     "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+     "street-level storefronts (88%), brick facades (95%), large windows (90%)",
+     "palm trees (71%), distant mountains (52%), low-rise buildings (79%)",
+     "symmetrical facade (76%), clapboard siding (40%), large windows (83%)"
+    ]
+   },
+   {
+    "family": 2,
+    "n_types": 8,
+    "n_places": 4521,
+    "top_regions": [
+     [
+      "Western Asia",
+      0.30833886308338865
+     ],
+     [
+      "Southern Asia",
+      0.21942048219420482
+     ],
+     [
+      "Northern Africa",
+      0.19508958195089582
+     ]
+    ],
+    "types": [
+     "distant mountains (55%), open fields (35%), low-rise buildings (72%)",
+     "flat roofs (82%), low-rise buildings (75%), thick walls (86%)",
+     "flat roofs (89%), low-rise buildings (96%), thick mud-brick walls (55%)",
+     "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+     "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+     "stone walls (61%), natural landscape (36%), rough texture (28%)",
+     "arched doorways (82%), tiled floor (64%), open-air market stalls (45%)",
+     "minaret (66%), arched doorways (82%), domed roof (36%)"
+    ]
+   },
+   {
+    "family": 3,
+    "n_types": 8,
+    "n_places": 5648,
+    "top_regions": [
+     [
+      "Southern Europe",
+      0.2855878186968839
+     ],
+     [
+      "Western Europe",
+      0.2046742209631728
+     ],
+     [
+      "Western Asia",
+      0.11561614730878186
+     ]
+    ],
+    "types": [
+     "palm trees (69%), fountain centerpiece (27%), raised garden beds (26%)",
+     "white walls (59%), blue accents (24%), balconies (25%)",
+     "arched doorways (78%), rhythmic columns (45%), bell tower (40%)",
+     "red-tiled roofs (64%), minarets (48%), distant mountains (50%)",
+     "brick walls (91%), arched windows (94%), symmetrical facades (82%)",
+     "balconies with wrought iron railings (73%), arched doorways (74%), rhythmic windows (47%)",
+     "terracotta tiles (52%), bell tower (49%), red-tiled roofs (56%)",
+     "stone walls (78%), dormer windows (90%), symmetrical facades (78%)"
+    ]
+   },
+   {
+    "family": 4,
+    "n_types": 7,
+    "n_places": 5385,
+    "top_regions": [
+     [
+      "Eastern Europe",
+      0.4
+     ],
+     [
+      "Western Europe",
+      0.27613741875580317
+     ],
+     [
+      "Northern Europe",
+      0.09210770659238626
+     ]
+    ],
+    "types": [
+     "wooden piers (68%), docked boats (47%), water reflection (45%)",
+     "arched windows (81%), symmetrical facades (75%), multi-story buildings (43%)",
+     "golden domes (45%), arched windows (80%), symmetrical facade (64%)",
+     "red-tiled roofs (66%), symmetrical facades (74%), arched windows (75%)",
+     "flat roofs (90%), multi-story apartment blocks (53%), concrete construction (43%)",
+     "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+     "half-timbered walls (74%), steep tiled roofs (65%), arched windows (84%)"
+    ]
+   },
+   {
+    "family": 5,
+    "n_types": 7,
+    "n_places": 4509,
+    "top_regions": [
+     [
+      "South America",
+      0.6234198270126414
+     ],
+     [
+      "Central America",
+      0.20825016633399868
+     ],
+     [
+      "Southern Europe",
+      0.03881126635617654
+     ]
+    ],
+    "types": [
+     "colorful facades (58%), cobblestone street (69%), arched doorways (47%)",
+     "colorful facades (43%), varied heights (40%), dense urban layout (36%)",
+     "white walls (68%), red-tiled roofs (66%), terracotta tiles (46%)",
+     "white walls (88%), blue trim (60%), cobblestone street (84%)",
+     "varied building heights (65%), flat roofs (84%), low-rise buildings (66%)",
+     "red-tiled roofs (57%), tree-lined streets (69%), low-rise buildings (57%)",
+     "white walls (76%), red-tiled roofs (69%), symmetrical facade (78%)"
+    ]
+   },
+   {
+    "family": 6,
+    "n_types": 6,
+    "n_places": 1876,
+    "top_regions": [
+     [
+      "Eastern Asia",
+      0.9952025586353944
+     ],
+     [
+      "South-eastern Asia",
+      0.0021321961620469083
+     ],
+     [
+      "Northern America",
+      0.0021321961620469083
+     ]
+    ],
+    "types": [
+     "dense urban layout (67%), varied heights (50%), multi-story buildings (54%)",
+     "wooden beams (89%), stone lanterns (86%), symmetrical layout (82%)",
+     "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+     "low-rise buildings (85%), distant mountains (42%), wooden frames (49%)",
+     "utility poles (60%), overhead wires (41%), narrow streets (50%)",
+     "wooden beams (94%), tiled roofs (74%), low-pitched eaves (58%)"
+    ]
+   },
+   {
+    "family": 7,
+    "n_types": 3,
+    "n_places": 1301,
+    "top_regions": [
+     [
+      "Eastern Asia",
+      0.962336664104535
+     ],
+     [
+      "South-eastern Asia",
+      0.026133743274404306
+     ],
+     [
+      "Southern Asia",
+      0.006917755572636433
+     ]
+    ],
+    "types": [
+     "decorative carvings (72%), symmetrical facade (83%), multi-tiered eaves (59%)",
+     "distant mountains (52%), stone walls (61%), terraced fields (38%)",
+     "wooden beams (80%), curved eaves (61%), symmetrical facades (81%)"
+    ]
+   },
+   {
+    "family": 8,
+    "n_types": 2,
+    "n_places": 922,
+    "top_regions": [
+     [
+      "Northern Europe",
+      0.9815618221258134
+     ],
+     [
+      "Northern America",
+      0.014099783080260303
+     ],
+     [
+      "Australia and New Zealand",
+      0.004338394793926247
+     ]
+    ],
+    "types": [
+     "brick walls (98%), chimneys (66%), white-framed windows (91%)",
+     "stone walls (92%), chimneys (53%), pitched roofs (56%)"
+    ]
+   },
+   {
+    "family": 9,
+    "n_types": 1,
+    "n_places": 456,
+    "top_regions": [
+     [
+      "Northern America",
+      0.18201754385964913
+     ],
+     [
+      "South America",
+      0.14912280701754385
+     ],
+     [
+      "Southern Asia",
+      0.10087719298245613
+     ]
+    ],
+    "types": [
+     "no architectural content visible (64%), none visible (36%), labeled streets (0%)"
+    ]
+   }
+  ],
+  "spearman_degree_vs_geo_spread": 0.3475097717993348,
+  "spearman_closure_vs_geo_spread": -0.5675824175824176,
+  "spearman_closure_vs_atlas_compactness": -0.45654761904761904,
+  "spearman_degree_vs_atlas_compactness": 0.32745933561075147,
+  "most_closed": [
+   {
+    "type": "no architectural content visible (64%), none visible (36%), labeled streets (0%)",
+    "closure": 0.9651315789473685,
+    "degree": 0
+   },
+   {
+    "type": "half-timbered walls (74%), steep tiled roofs (65%), arched windows (84%)",
+    "closure": 0.9543956043956044,
+    "degree": 1
+   },
+   {
+    "type": "arched doorways (85%), geometric patterns (64%), minarets (44%)",
+    "closure": 0.9530575539568346,
+    "degree": 2
+   },
+   {
+    "type": "brick walls (91%), arched windows (94%), symmetrical facades (82%)",
+    "closure": 0.9439271255060728,
+    "degree": 1
+   },
+   {
+    "type": "white walls (88%), blue trim (60%), cobblestone street (84%)",
+    "closure": 0.9226551226551226,
+    "degree": 3
+   },
+   {
+    "type": "tiered roof (58%), carved columns (50%), stone pillars (59%)",
+    "closure": 0.9098181818181819,
+    "degree": 2
+   },
+   {
+    "type": "red-tiled roofs (64%), minarets (48%), distant mountains (50%)",
+    "closure": 0.904066265060241,
+    "degree": 2
+   },
+   {
+    "type": "stone walls (78%), dormer windows (90%), symmetrical facades (78%)",
+    "closure": 0.9023381294964029,
+    "degree": 2
+   }
+  ],
+  "most_open": [
+   {
+    "type": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+    "closure": 0.5190817790530846,
+    "degree": 8
+   },
+   {
+    "type": "flat roof (66%), concrete pillars (39%), metal framework (25%)",
+    "closure": 0.5263366336633664,
+    "degree": 8
+   },
+   {
+    "type": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+    "closure": 0.5690909090909091,
+    "degree": 5
+   },
+   {
+    "type": "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+    "closure": 0.6096124031007752,
+    "degree": 4
+   },
+   {
+    "type": "urban density (90%), tree-lined streets (75%), multi-story buildings (57%)",
+    "closure": 0.6294871794871795,
+    "degree": 4
+   },
+   {
+    "type": "tree-lined streets (63%), brick facades (73%), multi-story buildings (47%)",
+    "closure": 0.638771186440678,
+    "degree": 6
+   },
+   {
+    "type": "stone walls (61%), natural landscape (36%), rough texture (28%)",
+    "closure": 0.651875808538163,
+    "degree": 5
+   },
+   {
+    "type": "brick facades (95%), tree-lined streets (71%), multi-story buildings (50%)",
+    "closure": 0.6798305084745763,
+    "degree": 4
+   }
+  ],
+  "hubs": [
+   {
+    "type": "lush vegetation (25%), low-rise buildings (39%), distant hills (39%)",
+    "degree": 5,
+    "betweenness": 0.27291346646185355,
+    "geo_km": 4587.225716693526
+   },
+   {
+    "type": "glass curtain wall (79%), urban density (68%), high-rise towers (57%)",
+    "degree": 5,
+    "betweenness": 0.22171018945212492,
+    "geo_km": 7264.874694987322
+   },
+   {
+    "type": "open fields (66%), distant hills (78%), low-rise buildings (77%)",
+    "degree": 8,
+    "betweenness": 0.19610855094726062,
+    "geo_km": 6651.69839839788
+   },
+   {
+    "type": "illuminated signage (77%), glass curtain walls (62%), urban density (68%)",
+    "degree": 5,
+    "betweenness": 0.1530977982590886,
+    "geo_km": 737.8369644154297
+   },
+   {
+    "type": "open-air market stalls (89%), corrugated metal roofs (56%), colorful awnings (47%)",
+    "degree": 4,
+    "betweenness": 0.1336405529953917,
+    "geo_km": 5467.48240081396
+   },
+   {
+    "type": "thatched roofs (60%), mud-brick walls (54%), earthy tones (42%)",
+    "degree": 5,
+    "betweenness": 0.12391193036354327,
+    "geo_km": 3121.547644337988
+   },
+   {
+    "type": "colorful facades (43%), varied heights (40%), dense urban layout (36%)",
+    "degree": 4,
+    "betweenness": 0.12339989759344598,
+    "geo_km": 6313.241144347941
+   },
+   {
+    "type": "thick mud-brick walls (78%), flat roofs (94%), earthy tones (42%)",
+    "degree": 5,
+    "betweenness": 0.11776753712237584,
+    "geo_km": 2626.6018143497445
+   }
+  ],
+  "links_within_family": 0.89855
+ },
+ "atlas_vs_space": {
+  "spearman_adjacency_vs_affinity": 0.8283460827999904,
+  "share_of_graph_edges_that_touch_on_the_atlas": 0.963963963963964,
+  "share_of_atlas_contacts_that_are_graph_edges": 0.7379310344827587,
+  "same_type_neighbour_share_on_atlas": 0.6917773446069183
+ },
+ "redraws": {
+  "fourth_seed": {
+   "same_type": 0.7590397154712507,
+   "one_of_three_nearest_types": 0.11035368504248172,
+   "linked_type_or_same": 0.8838174273858921,
+   "elsewhere": 0.11618257261410789
+  },
+  "fifth_probe": {
+   "same_type": 0.3674833695580584,
+   "one_of_three_nearest_types": 0.23068563524995062,
+   "linked_type_or_same": 0.6433181848119608,
+   "elsewhere": 0.35668181518803926
+  },
+  "chance_three_nearest_types": 0.049653499802410586,
+  "chance_linked_or_same": 0.07502375107027597
+ },
+ "number_of_types": {
+  "sweep": [
+   {
+    "k": 8,
+    "silhouette": 0.04474854841828346,
+    "stability_ari": 0.24808800268302897,
+    "within_cluster_share_of_variance": 0.9456831216812134
+   },
+   {
+    "k": 16,
+    "silhouette": 0.06189458817243576,
+    "stability_ari": 0.3461533517010112,
+    "within_cluster_share_of_variance": 0.9065176248550415,
+    "nesting_purity": 0.6975
+   },
+   {
+    "k": 32,
+    "silhouette": 0.08569781482219696,
+    "stability_ari": 0.48752627362214906,
+    "within_cluster_share_of_variance": 0.8474534749984741,
+    "nesting_purity": 0.7507
+   },
+   {
+    "k": 64,
+    "silhouette": 0.09742767363786697,
+    "stability_ari": 0.509519001312229,
+    "within_cluster_share_of_variance": 0.786091685295105,
+    "nesting_purity": 0.756125
+   },
+   {
+    "k": 128,
+    "silhouette": 0.10138484090566635,
+    "stability_ari": 0.5037398839044167,
+    "within_cluster_share_of_variance": 0.7225397229194641,
+    "nesting_purity": 0.725025
+   },
+   {
+    "k": 256,
+    "silhouette": 0.0889860987663269,
+    "stability_ari": 0.4569909668383941,
+    "within_cluster_share_of_variance": 0.6668170094490051,
+    "nesting_purity": 0.73235
+   },
+   {
+    "k": 512,
+    "silhouette": 0.070181705057621,
+    "stability_ari": 0.41391369487035856,
+    "within_cluster_share_of_variance": 0.6240159273147583,
+    "nesting_purity": 0.7095
+   }
+  ],
+  "hdbscan": {
+   "min_cluster_size": 40,
+   "n_clusters": 8,
+   "share_in_no_cluster": 0.48335,
+   "largest_cluster_share": 0.505925
+  }
+ }
+}

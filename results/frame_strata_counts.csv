@@ -1,0 +1,108 @@
+band,region,N
+0.5-2M,Australia and New Zealand,3
+10-20k,Australia and New Zealand,77
+100-500k,Australia and New Zealand,21
+20-100k,Australia and New Zealand,55
+>2M,Australia and New Zealand,4
+0.5-2M,Caribbean,7
+10-20k,Caribbean,120
+100-500k,Caribbean,66
+20-100k,Caribbean,297
+>2M,Caribbean,2
+0.5-2M,Central America,46
+10-20k,Central America,514
+100-500k,Central America,183
+20-100k,Central America,810
+>2M,Central America,5
+0.5-2M,Central Asia,9
+10-20k,Central Asia,215
+100-500k,Central Asia,45
+20-100k,Central Asia,226
+>2M,Central Asia,1
+0.5-2M,Eastern Africa,28
+10-20k,Eastern Africa,696
+100-500k,Eastern Africa,143
+20-100k,Eastern Africa,568
+>2M,Eastern Africa,8
+0.5-2M,Eastern Asia,331
+10-20k,Eastern Asia,572
+100-500k,Eastern Asia,557
+20-100k,Eastern Asia,1378
+>2M,Eastern Asia,242
+0.5-2M,Eastern Europe,53
+10-20k,Eastern Europe,1060
+100-500k,Eastern Europe,268
+20-100k,Eastern Europe,1118
+>2M,Eastern Europe,5
+0.5-2M,Melanesia,1
+10-20k,Melanesia,10
+100-500k,Melanesia,3
+20-100k,Melanesia,20
+10-20k,Micronesia,1
+100-500k,Micronesia,1
+20-100k,Micronesia,2
+0.5-2M,Middle Africa,24
+10-20k,Middle Africa,71
+100-500k,Middle Africa,94
+20-100k,Middle Africa,227
+>2M,Middle Africa,6
+0.5-2M,Northern Africa,23
+10-20k,Northern Africa,412
+100-500k,Northern Africa,154
+20-100k,Northern Africa,418
+>2M,Northern Africa,7
+0.5-2M,Northern America,73
+10-20k,Northern America,2388
+100-500k,Northern America,432
+20-100k,Northern America,2224
+>2M,Northern America,28
+0.5-2M,Northern Europe,17
+10-20k,Northern Europe,842
+100-500k,Northern Europe,119
+20-100k,Northern Europe,724
+>2M,Northern Europe,3
+100-500k,Polynesia,1
+0.5-2M,South America,75
+10-20k,South America,1745
+100-500k,South America,496
+20-100k,South America,2155
+>2M,South America,20
+0.5-2M,South-eastern Asia,64
+10-20k,South-eastern Asia,494
+100-500k,South-eastern Asia,476
+20-100k,South-eastern Asia,1426
+>2M,South-eastern Asia,17
+0.5-2M,Southern Africa,8
+10-20k,Southern Africa,66
+100-500k,Southern Africa,41
+20-100k,Southern Africa,91
+>2M,Southern Africa,1
+0.5-2M,Southern Asia,125
+10-20k,Southern Asia,2721
+100-500k,Southern Asia,604
+20-100k,Southern Asia,2035
+>2M,Southern Asia,31
+0.5-2M,Southern Europe,17
+10-20k,Southern Europe,1184
+100-500k,Southern Europe,150
+20-100k,Southern Europe,1111
+>2M,Southern Europe,5
+0.5-2M,Western Africa,40
+10-20k,Western Africa,209
+100-500k,Western Africa,173
+20-100k,Western Africa,288
+>2M,Western Africa,10
+0.5-2M,Western Asia,60
+10-20k,Western Asia,344
+100-500k,Western Asia,263
+20-100k,Western Asia,617
+>2M,Western Asia,15
+0.5-2M,Western Europe,18
+10-20k,Western Europe,1784
+100-500k,Western Europe,148
+20-100k,Western Europe,1391
+>2M,Western Europe,5
+0.5-2M,unknown,1
+10-20k,unknown,8
+100-500k,unknown,4
+20-100k,unknown,14

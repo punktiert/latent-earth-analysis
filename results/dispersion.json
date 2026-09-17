@@ -1,0 +1,47 @@
+{
+ "_provenance": {
+  "seed": 20260713,
+  "n_permutations": 999,
+  "n_bootstrap": 1000
+ },
+ "concat": {
+  "n_places": 40000,
+  "mean": 0.21790171639097794,
+  "quantiles": {
+   "p5": 0.07177360007207179,
+   "p25": 0.10905623219363217,
+   "p50": 0.14597342775562977,
+   "p75": 0.27596602983924945,
+   "p90": 0.5040173702071177,
+   "p95": 0.5466208111287886,
+   "p99": 0.5996426493973159
+  },
+  "p90_over_median": 3.45280218431864
+ },
+ "tail_test": {
+  "obs_p90_over_median": 3.45280218431864,
+  "null_mean": 1.0235807139375088,
+  "null_p975": 1.0238711859322687,
+  "p_value": 0.004975124378109453,
+  "note": "null = place labels permuted within scale (dispersion of pseudo-places)"
+ },
+ "dip_test": null,
+ "correlates": {
+  "population": {
+   "rho": -0.058127590254082644,
+   "p_value": 0.001,
+   "n": 40000
+  },
+  "wiki_visibility_score": {
+   "rho": -0.03617734684881039,
+   "p_value": 0.001,
+   "n": 40000
+  }
+ },
+ "sample4_replicate": {
+  "rho": 0.08148348124610706,
+  "p_value": 0.001,
+  "n": 40000,
+  "n_places_with_s4": 40000
+ }
+}
