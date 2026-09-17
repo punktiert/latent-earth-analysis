@@ -55,7 +55,10 @@ features reduce every channel by a PCA fitted on a 30,000-image subsample. The
 paper's features were built from the recordings in their production order, the
 release lists them in another order, and the subsample follows the order. The
 numbers in `results/` are the paper's; a rebuild agrees with them to the second
-or third decimal.
+or third decimal. Checked on 17 September 2026 with features rebuilt from the
+release: identification of country 78.98% (paper 79.0%), world region 89.01%
+(89.1%), climate class 62.82% (62.8%); shares of local, regional and global
+types at 32, 64 and 128 types identical to the paper.
 
 ## Licence and citation
 
