@@ -50,15 +50,14 @@ python figures/make_all.py
 Set `LATENT_EARTH_DATA` to keep the data outside the repository. 32 GB of
 memory is enough; the prompt-encoder channel is the large one.
 
-**Reproduction to within sampling noise, not bit for bit.** The analysis
-features reduce every channel by a PCA fitted on a 30,000-image subsample. The
-paper's features were built from the recordings in their production order, the
-release lists them in another order, and the subsample follows the order. The
-numbers in `results/` are the paper's; a rebuild agrees with them to the second
-or third decimal. Checked on 17 September 2026 with features rebuilt from the
-release: identification of country 78.98% (paper 79.0%), world region 89.01%
-(89.1%), climate class 62.82% (62.8%); shares of local, regional and global
-types at 32, 64 and 128 types identical to the paper.
+**Reproduction.** Checked on 17 September 2026 with the analysis features
+rebuilt from the release by `build-features`: every identification rate of
+`results/geo_knn.json` (three targets, five channels and their combination)
+is reproduced to four decimals, and the shares of local, regional and global
+types at 32, 64 and 128 types are identical. The numbers in `results/` are
+the paper's. Should a future version of the release list the tiles in another
+order, the PCA subsample would change with it and a rebuild would agree to the
+second or third decimal rather than exactly.
 
 ## Licence and citation
 
