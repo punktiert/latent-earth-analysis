@@ -430,6 +430,110 @@
     "geo_km": 2626.6018143497445
    }
   ],
+  "n_links_between_families": 24,
+  "n_bridge_types": 32,
+  "bridge_types_median_geo_km": 3046.6082316154734,
+  "other_types_median_geo_km": 765.0100311800438,
+  "component_sizes": [
+   61,
+   2,
+   1
+  ],
+  "giant_diameter_hops": 10,
+  "giant_mean_path_hops": 4.001639344262295,
+  "spearman_betweenness_vs_geo_spread": 0.38793604508027013,
+  "region_concentration": {
+   "Australia and New Zealand": {
+    "n": 325,
+    "family": 1,
+    "share": 0.49538461538461537
+   },
+   "Caribbean": {
+    "n": 496,
+    "family": 5,
+    "share": 0.34475806451612906
+   },
+   "Central America": {
+    "n": 2405,
+    "family": 5,
+    "share": 0.39043659043659046
+   },
+   "Central Asia": {
+    "n": 398,
+    "family": 2,
+    "share": 0.8115577889447236
+   },
+   "Eastern Africa": {
+    "n": 1191,
+    "family": 0,
+    "share": 0.7145256087321579
+   },
+   "Eastern Asia": {
+    "n": 3745,
+    "family": 6,
+    "share": 0.49853137516688917
+   },
+   "Eastern Europe": {
+    "n": 2691,
+    "family": 4,
+    "share": 0.8004459308807135
+   },
+   "Middle Africa": {
+    "n": 368,
+    "family": 0,
+    "share": 0.8125
+   },
+   "Northern Africa": {
+    "n": 1127,
+    "family": 2,
+    "share": 0.782608695652174
+   },
+   "Northern America": {
+    "n": 4962,
+    "family": 1,
+    "share": 0.733776702942362
+   },
+   "Northern Europe": {
+    "n": 1653,
+    "family": 8,
+    "share": 0.5474894131881428
+   },
+   "South America": {
+    "n": 4747,
+    "family": 5,
+    "share": 0.5921634716663156
+   },
+   "South-eastern Asia": {
+    "n": 2389,
+    "family": 0,
+    "share": 0.806613645876936
+   },
+   "Southern Asia": {
+    "n": 5247,
+    "family": 0,
+    "share": 0.7284162378502002
+   },
+   "Southern Europe": {
+    "n": 2035,
+    "family": 3,
+    "share": 0.7926289926289927
+   },
+   "Western Africa": {
+    "n": 751,
+    "family": 0,
+    "share": 0.8468708388814914
+   },
+   "Western Asia": {
+    "n": 2263,
+    "family": 2,
+    "share": 0.6159964648696421
+   },
+   "Western Europe": {
+    "n": 2815,
+    "family": 4,
+    "share": 0.5282415630550622
+   }
+  },
   "links_within_family": 0.89855
  },
  "atlas_vs_space": {

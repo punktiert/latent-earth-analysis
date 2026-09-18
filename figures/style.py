@@ -9,6 +9,7 @@ The contrast WARN on orange/pink/sky is relieved by direct labels everywhere
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import matplotlib as mpl
@@ -71,7 +72,7 @@ def apply_style() -> None:
         "legend.frameon": False,
         "pdf.fonttype": 42,        # embed TrueType (journal requirement)
         "ps.fonttype": 42,
-        "savefig.dpi": 300,
+        "savefig.dpi": int(os.environ.get("FIG_DPI", 300)),   # FIG_DPI=600 for submission files
         "savefig.bbox": "tight",
     })
 
