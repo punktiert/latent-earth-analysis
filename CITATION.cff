@@ -7,6 +7,14 @@ authors:
     affiliation: "The University of Texas at Austin"
 license: MIT
 type: software
+version: public
+date-released: 2026-09-18
+doi: 10.5281/zenodo.22821323
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22821322
+    description: "all versions"
+repository-code: "https://github.com/punktiert/latent-earth-analysis"
 references:
   - type: dataset
     title: "Latent Earth: An Atlas of Architecture in Flux.2"

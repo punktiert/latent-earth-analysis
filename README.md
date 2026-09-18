@@ -11,6 +11,10 @@ into every number and figure of the paper. The dataset holds 200,000 generated
 images of 40,000 real places together with five representations recorded while
 each image was generated; this repository holds what was done with them.
 
+Archived at Zenodo: https://doi.org/10.5281/zenodo.22821323 (the release
+`public`); https://doi.org/10.5281/zenodo.22821322 resolves to the latest
+version.
+
 ## What is here, and what is not
 
 | Folder | Content |
@@ -62,4 +66,5 @@ second or third decimal rather than exactly.
 ## Licence and citation
 
 Code: MIT (see `LICENSE`). Dataset: CC BY-NC 4.0 (see the dataset card).
-Please cite the paper and the dataset; `CITATION.cff` has both.
+Please cite the paper and the dataset, and this code where it is used;
+`CITATION.cff` has all three.
